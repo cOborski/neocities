@@ -114,7 +114,6 @@
 'render_sources:output\\de\\pages\\creating-a-theme\\index.rst', (161792, 261)
 'render_pages:output\\pages\\theming\\index.html', (343040, 4721)
 'render_sources:output\\pages\\dr-nikolas-vendetta\\index.rst', (166400, 268)
-'render_taxonomies:output\\archive.html', (512000, 2108)
 'render_posts:cache\\pages\\charts.de.html', (168448, 352)
 'render_pages:output\\pages\\internals\\index.html', (305152, 4730)
 'render_sources:output\\de\\pages\\handbook\\index.rst', (173056, 243)
@@ -220,3 +219,5 @@
 'render_taxonomies:output\\tags\\blog\\index.html', (572928, 2355)
 'render_taxonomies:output\\tags\\demo.xml', (575488, 456)
 'render_taxonomies:output\\tags\\nikola.xml', (576000, 456)
+'scale_images:public\\images\\frontispiece.jpg', (582656, 227)
+'scale_images:public\\images\\illus_001.jpg', (583168, 223)

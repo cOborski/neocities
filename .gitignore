@@ -1,3 +1,9 @@
 # Git ignore
 
+# Cuda
 *.cuda-proj
+
+# Nikola
+# public/
+cache/
+__pycache__/
