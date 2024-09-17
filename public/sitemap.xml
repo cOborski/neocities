@@ -7,265 +7,50 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://coborski.neocities.org/</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/2012/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/archive.html</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/blog/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/cat_nikola/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/demo/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/nikola/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/python/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/2012/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/archive.html</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/categories/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/categories/blog/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/categories/cat_nikola/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/categories/demo/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/categories/nikola/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/categories/python/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/galleries/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/galleries/demo/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/about-nikola/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/about-nikola/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/bootstrap-demo/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/bootstrap-demo/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/charts/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/charts/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/creating-a-theme/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/creating-a-theme/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/dr-nikolas-vendetta/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/extending/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/extending/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/handbook/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/handbook/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/internals/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/internals/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/listings-demo/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/listings-demo/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/path-handlers/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/path-handlers/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/quickref/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/quickref/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/quickstart/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/quickstart/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/social_buttons/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/social_buttons/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/pages/theming/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/pages/theming/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/posts/welcome-to-nikola/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://coborski.neocities.org/posts/welcome-to-nikola/" />
- </url>
- <url>
-  <loc>https://coborski.neocities.org/de/tags.html</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/galleries/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/galleries/demo/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/__pycache__/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/hello.py.html</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
-  <loc>https://coborski.neocities.org/pages/about-nikola/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
+  <loc>https://coborski.neocities.org/pages/</loc>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
-  <loc>https://coborski.neocities.org/pages/bootstrap-demo/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
+  <loc>https://coborski.neocities.org/pages/about/</loc>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
-  <loc>https://coborski.neocities.org/pages/charts/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
+  <loc>https://coborski.neocities.org/pages/links/</loc>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
-  <loc>https://coborski.neocities.org/pages/creating-a-theme/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/extending/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/handbook/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/internals/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/listings-demo/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/path-handlers/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/quickref/</loc>
-  <lastmod>2024-09-09T02:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/quickstart/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/social_buttons/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/theming/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/posts/welcome-to-nikola/</loc>
-  <lastmod>2024-09-09T02:21:00Z</lastmod>
+  <loc>https://coborski.neocities.org/pages/test/</loc>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/tags.html</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/tags/blog/</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/tags/demo/</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/tags/nikola/</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/tags/python/</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/tags/tag_nikola/</loc>
-  <lastmod>2024-09-09T03:32:00Z</lastmod>
+  <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
 </urlset>

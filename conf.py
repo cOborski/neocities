@@ -14,10 +14,13 @@ import time
 # ! Option (a) is used when you don't want that setting translated.
 # ! Option (b) is used for settings that are different in different languages.
 
+# NIKOLA_DEBUG = 1
+# NIKOLA_SHOW_TRACEBACKS = 1
+
 
 # Data about this site
 BLOG_AUTHOR = "Catherine Oborski"  # (translatable)
-BLOG_TITLE = "Catherine's Homepage"  # (translatable)
+BLOG_TITLE = "Catherine's Home on the Web"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://coborski.neocities.org/"
@@ -25,7 +28,9 @@ SITE_URL = "https://coborski.neocities.org/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://coborski.neocities.org/"
 BLOG_EMAIL = "broom.dragon1416@eagereverest.com"
-BLOG_DESCRIPTION = "The personal web site of coborski"  # (translatable)
+BLOG_DESCRIPTION = (
+    "The personal web site of Catherine Oborski"  # (translatable)
+)
 
 # Nikola is multilingual!
 #
@@ -101,7 +106,8 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "de": "./de",
+    # Example for another language:
+    # "es": "./es",
 }
 
 # What will translated input files be named like?
@@ -141,14 +147,11 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
+        ("/archive.html", "Archives"),
+        ("/categories/index.html", "Tags"),
+        ("/pages/index.html", "Pages"),
+        ("/posts/index.html", "Posts"),
         ("/rss.xml", "RSS feed"),
-    ),
-    "de": (
-        ("/de/archive.html", "Archiv"),
-        ("/de/categories/", "Tags"),
-        ("/de/rss.xml", "RSS-Feed"),
     ),
 }
 
@@ -158,7 +161,7 @@ NAVIGATION_LINKS = {
 NAVIGATION_ALT_LINKS = {DEFAULT_LANG: ()}
 
 # Name of the theme to use.
-THEME = "lotabout"
+THEME = "willy-theme"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -244,10 +247,10 @@ POSTS = (
     ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.rst", "pages", "base.tmpl"),
+    ("pages/*.md", "pages", "base.tmpl"),
+    ("pages/*.txt", "pages", "base.tmpl"),
+    ("pages/*.html", "pages", "base.tmpl"),
 )
 
 
@@ -265,12 +268,12 @@ TIMEZONE = "America/Chicago"
 # If you want to use ISO 8601 (also valid RFC 3339) throughout Nikola
 # (especially in new_post), set this to True.
 # Note that this does not affect DATE_FORMAT.
-FORCE_ISO8601 = True
+# FORCE_ISO8601 = True
 
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time-1/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-DATE_FORMAT = "short"
+# DATE_FORMAT = "short"
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by Luxon: https://moment.github.io/luxon/docs/manual/formatting
@@ -297,14 +300,14 @@ DATE_FORMAT = "short"
 # Default is:
 # FILES_FOLDERS = {'files': ''}
 # Which means copy 'files' into 'output'
-FILES_FOLDERS = {"files": "public"}
+# FILES_FOLDERS = {"files": "public"}
 
 # One or more folders containing code listings to be processed and published on
 # the site. The format is a dictionary of {source: relative destination}.
 # Default is:
 # LISTINGS_FOLDERS = {'listings': 'listings'}
 # Which means process listings from 'listings' into 'output/listings'
-LISTINGS_FOLDERS = {"listings": "code-snippits"}
+# LISTINGS_FOLDERS = {"listings": "listings"}
 
 # A mapping of languages to file-extensions that represent that language.
 # Feel free to add or delete extensions to any list, but don't add any new
@@ -363,7 +366,7 @@ NEW_POST_DATE_PATH = False
 # untranslated posts.
 # If this is set to False, then posts that are not translated to a language
 # LANG will not be visible at all in the pages in that language.
-SHOW_UNTRANSLATED_POSTS = False
+# SHOW_UNTRANSLATED_POSTS = False
 
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
@@ -376,13 +379,13 @@ SHOW_UNTRANSLATED_POSTS = False
 # This option lets you use an image to be used if the post doesn't have it.
 # The default is None, valid values are URLs or output paths like
 # "/images/foo.jpg"
-DEFAULT_PREVIEW_IMAGE = None
+# DEFAULT_PREVIEW_IMAGE = None
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
 # Note: if your logo is a SVG image, and you set SHOW_BLOG_TITLE = False,
 # you should explicitly set a height for #logo in CSS.
-SHOW_BLOG_TITLE = False
+# SHOW_BLOG_TITLE = True
 
 # Paths for different autogenerated bits. These are combined with the
 # translation paths.
@@ -392,7 +395,7 @@ SHOW_BLOG_TITLE = False
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag RSS_EXTENSION (RSS feed for a tag)
 # (translatable)
-TAG_PATH = "tags"
+TAG_PATH = "categories"
 
 # By default, the list of tags is stored in
 #     output / TRANSLATION[lang] / TAG_PATH / index.html
@@ -404,7 +407,7 @@ TAGS_INDEX_PATH = "tags.html"
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# TAG_PAGES_ARE_INDEXES = False
+TAG_PAGES_ARE_INDEXES = True
 
 # Set descriptions for tag pages to make them more interesting. The
 # default is no description. The value is used in the meta description
@@ -456,8 +459,8 @@ HIDDEN_TAGS = ["mathjax"]
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.html (list of posts for a category)
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category RSS_EXTENSION (RSS feed for a category)
 # (translatable)
-CATEGORY_PATH = "tags"
-CATEGORY_PREFIX = "tag_"
+# CATEGORY_PATH = "categories"
+# CATEGORY_PREFIX = "cat_"
 
 # By default, the list of categories is stored in
 #     output / TRANSLATION[lang] / CATEGORY_PATH / index.html
@@ -465,7 +468,7 @@ CATEGORY_PREFIX = "tag_"
 #     output / TRANSLATION[lang] / CATEGORIES_INDEX_PATH
 # with an arbitrary relative path CATEGORIES_INDEX_PATH.
 # (translatable)
-CATEGORIES_INDEX_PATH = "tags.html"
+# CATEGORIES_INDEX_PATH = "categories.html"
 
 # If CATEGORY_ALLOW_HIERARCHIES is set to True, categories can be organized in
 # hierarchies. For a post, the whole path in the hierarchy must be specified,
@@ -475,11 +478,11 @@ CATEGORIES_INDEX_PATH = "tags.html"
 CATEGORY_ALLOW_HIERARCHIES = True
 # If CATEGORY_OUTPUT_FLAT_HIERARCHY is set to True, the output written to output
 # contains only the name of the leaf category and not the whole path.
-CATEGORY_OUTPUT_FLAT_HIERARCHY = True
+CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # If CATEGORY_PAGES_ARE_INDEXES is set to True, each category's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# CATEGORY_PAGES_ARE_INDEXES = False
+CATEGORY_PAGES_ARE_INDEXES = True
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
@@ -549,18 +552,18 @@ HIDDEN_CATEGORIES = []
 
 # If ENABLE_AUTHOR_PAGES is set to True and there is more than one
 # author, author pages are generated.
-# ENABLE_AUTHOR_PAGES = True
+ENABLE_AUTHOR_PAGES = True
 
 # Path to author pages. Final locations are:
 # output / TRANSLATION[lang] / AUTHOR_PATH / index.html (list of authors)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author.html (list of posts by an author)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author RSS_EXTENSION (RSS feed for an author)
 # (translatable)
-# AUTHOR_PATH = "authors"
+AUTHOR_PATH = "authors"
 
 # If AUTHOR_PAGES_ARE_INDEXES is set to True, each author's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# AUTHOR_PAGES_ARE_INDEXES = False
+AUTHOR_PAGES_ARE_INDEXES = True
 
 # Set descriptions for author pages to make them more interesting. The
 # default is no description. The value is used in the meta description
@@ -579,7 +582,7 @@ HIDDEN_CATEGORIES = []
 HIDDEN_AUTHORS = ["Guest"]
 
 # Allow multiple, comma-separated authors for a post? (Requires theme support, present in built-in themes)
-# MULTIPLE_AUTHORS_PER_POST = False
+MULTIPLE_AUTHORS_PER_POST = True
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
@@ -591,7 +594,7 @@ HIDDEN_AUTHORS = ["Guest"]
 FRONT_INDEX_HEADER = {DEFAULT_LANG: ""}
 
 # Create per-month archives instead of per-year
-# CREATE_MONTHLY_ARCHIVE = False
+CREATE_MONTHLY_ARCHIVE = True
 # Create one large archive instead of per-year
 # CREATE_SINGLE_ARCHIVE = False
 # Create year, month, and day archives each with a (long) list of posts
@@ -600,7 +603,7 @@ FRONT_INDEX_HEADER = {DEFAULT_LANG: ""}
 # If monthly archives or full archives are created, adds also one archive per day
 # CREATE_DAILY_ARCHIVE = False
 # Create previous, up, next navigation links for archives
-# CREATE_ARCHIVE_NAVIGATION = False
+CREATE_ARCHIVE_NAVIGATION = True
 # Final locations for the archives are:
 # output / TRANSLATION[lang] / ARCHIVE_PATH / ARCHIVE_FILENAME
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
@@ -613,20 +616,20 @@ FRONT_INDEX_HEADER = {DEFAULT_LANG: ""}
 # If ARCHIVES_ARE_INDEXES is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
 # list of links.
-# ARCHIVES_ARE_INDEXES = False
+# ARCHIVES_ARE_INDEXES = True
 
 # URLs to other posts/pages can take 3 forms:
 # rel_path: a relative URL to the current page/post (default)
 # full_path: a URL with the full path from the root
 # absolute: a complete URL (that includes the SITE_URL)
-# URL_TYPE = 'rel_path'
+# URL_TYPE = "rel_path"
 
 # Extension for RSS feed files
 # RSS_EXTENSION = ".xml"
 
 # RSS filename base (without extension); used for indexes and galleries.
 # (translatable)
-# RSS_FILENAME_BASE = "rss"
+RSS_FILENAME_BASE = "rss"
 
 # Final location for the blog main RSS feed is:
 # output / TRANSLATION[lang] / RSS_PATH / RSS_FILENAME_BASE RSS_EXTENSION
@@ -647,11 +650,11 @@ ATOM_FILENAME_BASE = "feed"
 
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_TAG_PATH = True
+SLUG_TAG_PATH = True
 
 # Slug the Author URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_AUTHOR_PATH = True
+SLUG_AUTHOR_PATH = True
 
 # A list of redirection tuples, [("foo/from.html", "/bar/to.html")].
 #
@@ -682,15 +685,15 @@ REDIRECTIONS = []
 # For more details, read the manual:
 # https://getnikola.com/handbook.html#deploying-to-github
 # You will need to configure the deployment branch on GitHub.
-GITHUB_SOURCE_BRANCH = "src"
-GITHUB_DEPLOY_BRANCH = "master"
+# GITHUB_SOURCE_BRANCH = "src"
+# GITHUB_DEPLOY_BRANCH = "main"
 
 # The name of the remote where you wish to push to, using github_deploy.
-GITHUB_REMOTE_NAME = "origin"
+# GITHUB_REMOTE_NAME = "origin"
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
-GITHUB_COMMIT_SOURCE = True
+# GITHUB_COMMIT_SOURCE = True
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
@@ -699,7 +702,7 @@ OUTPUT_FOLDER = "public"
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
-# CACHE_FOLDER = 'cache'
+# CACHE_FOLDER = "cache"
 
 # Filters to apply to the output.
 # A directory where the keys are either: a file extensions, or
@@ -782,12 +785,12 @@ OUTPUT_FOLDER = "public"
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-GALLERY_FOLDERS = {"galleries": "galleries"}
+# GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
-THUMBNAIL_SIZE = 180
-MAX_IMAGE_SIZE = 1280
-USE_FILENAME_AS_TITLE = True
-EXTRA_IMAGE_EXTENSIONS = []
+# THUMBNAIL_SIZE = 180
+# MAX_IMAGE_SIZE = 1280
+# USE_FILENAME_AS_TITLE = True
+# EXTRA_IMAGE_EXTENSIONS = []
 
 # Use a thumbnail (defined by ".. previewimage:" in the gallery's index) in
 # list of galleries for each gallery
@@ -862,8 +865,8 @@ GALLERIES_DEFAULT_THUMBNAIL = None
 # Panoramas (aspect ratio over 3:1) get 4x larger thumbnails due to scaling issues.
 
 IMAGE_FOLDERS = {"images": "images"}
-IMAGE_THUMBNAIL_SIZE = 400
-IMAGE_THUMBNAIL_FORMAT = "{name}.thumbnail{ext}"
+# IMAGE_THUMBNAIL_SIZE = 400
+# IMAGE_THUMBNAIL_FORMAT = "{name}.thumbnail{ext}"
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
@@ -881,7 +884,7 @@ IMAGE_THUMBNAIL_FORMAT = "{name}.thumbnail{ext}"
 #
 # If the following is True, INDEXES_PAGES is also displayed on the main (the
 # newest) index page (index.html):
-# INDEXES_PAGES_MAIN = False
+# INDEXES_PAGES_MAIN = True
 #
 # If the following is True, index-1.html has the oldest posts, index-2.html the
 # second-oldest posts, etc., and index.html has the newest posts. This ensures
@@ -910,12 +913,12 @@ IMAGE_THUMBNAIL_FORMAT = "{name}.thumbnail{ext}"
 # Note that in case INDEXES_PAGES_MAIN is set to True, a redirection will be created
 # for the full URL with the page number of the main page to the normal (shorter) main
 # page URL.
-# INDEXES_PRETTY_PAGE_URL = False
+# INDEXES_PRETTY_PAGE_URL = True
 #
 # If the following is true, a page range navigation will be inserted to indices.
 # Please note that this will undo the effect of INDEXES_STATIC, as all index pages
 # must be recreated whenever the number of pages changes.
-# SHOW_INDEX_PAGE_NAVIGATION = False
+# SHOW_INDEX_PAGE_NAVIGATION = True
 
 # If the following is True, a meta name="generator" tag is added to pages. The
 # generator tag is used to specify the software used to generate the page
@@ -931,7 +934,7 @@ IMAGE_THUMBNAIL_FORMAT = "{name}.thumbnail{ext}"
 # This list MAY be incomplete since pygments adds styles every now and then.
 # Check with list(pygments.styles.get_all_styles()) in an interpreter.
 #
-# CODE_COLOR_SCHEME = 'default'
+# CODE_COLOR_SCHEME = "default"
 
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
@@ -942,7 +945,7 @@ IMAGE_THUMBNAIL_FORMAT = "{name}.thumbnail{ext}"
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+# INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -1038,7 +1041,7 @@ COMMENT_SYSTEM_ID = "coborski/neocities"
 # WARNING: if a page would conflict with the index file (usually
 #          caused by setting slug to `index`), the PAGE_INDEX
 #          will not be generated for that directory.
-# PAGE_INDEX = False
+PAGE_INDEX = True
 # Enable comments on pages (i.e. not posts)?
 # COMMENTS_IN_PAGES = False
 # Enable comments on picture gallery pages?
@@ -1059,7 +1062,7 @@ STRIP_INDEXES = True
 # from indexing and other robotic spidering. * is supported. Will only be effective
 # if SITE_URL points to server root. The list is used to exclude resources from
 # /robots.txt and /sitemap.xml, and to inform search engines about /sitemapindex.xml.
-# ROBOTS_EXCLUSIONS = ["/archive.html", "/category/*.html"]
+ROBOTS_EXCLUSIONS = ["/archive.html", "/category/*.html"]
 
 # Instead of putting files in <slug>.html, put them in <slug>/index.html.
 # No web server configuration is required. Also enables STRIP_INDEXES.
@@ -1077,7 +1080,7 @@ PRETTY_URLS = True
 # Generally, you want FUTURE_IS_NOW and DEPLOY_FUTURE to be the same value.
 # DEPLOY_FUTURE = False
 # If False, draft posts will not be deployed
-DEPLOY_DRAFTS = False
+# DEPLOY_DRAFTS = False
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
 # Specify an iCal Recurrence Rule: https://www.kanzaki.com/docs/ical/rrule.html
@@ -1193,7 +1196,7 @@ MARKDOWN_EXTENSIONS = [
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
-# GENERATE_RSS = True
+GENERATE_RSS = True
 
 # By default, Nikola does not generates Atom files for indexes and links to
 # them. Generate Atom for tags by setting TAG_PAGES_ARE_INDEXES to True.
@@ -1202,7 +1205,7 @@ MARKDOWN_EXTENSIONS = [
 # FEED_TEASER option. FEED_LINKS_APPEND_QUERY is also respected. Atom feeds
 # are generated even for old indexes and have pagination link relations
 # between each other. Old Atom feeds with no changes are marked as archived.
-# GENERATE_ATOM = False
+GENERATE_ATOM = True
 
 # Only include teasers in Atom and RSS feeds. Disabling include the full
 # content. Defaults to True.
@@ -1224,7 +1227,7 @@ MARKDOWN_EXTENSIONS = [
 # Or a DuckDuckGo search: https://duckduckgo.com/search_box.html
 # Default is no search form.
 # (translatable)
-SEARCH_FORM = "https://duckduckgo.com/search_box.html"
+# SEARCH_FORM = "https://duckduckgo.com/search_box.html"
 #
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
@@ -1265,7 +1268,7 @@ SEARCH_FORM = "https://duckduckgo.com/search_box.html"
 # Bootstrap is served from BootstrapCDN (provided by MaxCDN)
 # Set this to False if you want to host your site without requiring access to
 # external resources.
-# USE_CDN = False
+USE_CDN = False
 
 # Check for USE_CDN compatibility.
 # If you are using custom themes, have configured the CSS properly and are
@@ -1358,7 +1361,7 @@ SEARCH_FORM = "https://duckduckgo.com/search_box.html"
 # Bundle JS and CSS into single files to make site loading faster in a HTTP/1.1
 # environment but is not recommended for HTTP/2.0 when caching is used.
 # Defaults to True.
-# USE_BUNDLES = True
+USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
@@ -1404,12 +1407,12 @@ SEARCH_FORM = "https://duckduckgo.com/search_box.html"
 
 # If set to True, the tags 'draft', 'mathjax' and 'private' have special
 # meaning. If set to False, these tags are handled like regular tags.
-USE_TAG_METADATA = True
+# USE_TAG_METADATA = True
 
 # If set to True, a warning is issued if one of the 'draft', 'mathjax'
 # and 'private' tags are found in a post. Useful for checking that
 # migration was successful.
-WARN_ABOUT_TAG_METADATA = True
+# WARN_ABOUT_TAG_METADATA = True
 
 # Templates will use those filters, along with the defaults.
 # Consult your engine's documentation on filters if you need help defining
@@ -1419,13 +1422,12 @@ WARN_ABOUT_TAG_METADATA = True
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    "issue-term": "pathname",
-    "label": "utterance",
-    "theme": "icy-dark",
-    "crossorigin": "anonymous",
+    #'"issue-term": "pathname","label": "utterance","theme": "icy-dark","crossorigin": "anonymous"'
 }
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
-GLOBAL_CONTEXT_FILLER = ["utterances_config"]
+GLOBAL_CONTEXT_FILLER = [
+    # "utterances_config"
+]
