@@ -5,7 +5,7 @@ description: 'all about me'
 link: 'https://coborski.neocities.org/pages/about'
 slug: about
 tags: 'page, howdy, about'
-title: About Me
+title: About
 type: text
 ---
 

@@ -247,10 +247,10 @@ POSTS = (
     ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "base.tmpl"),
-    ("pages/*.md", "pages", "base.tmpl"),
-    ("pages/*.txt", "pages", "base.tmpl"),
-    ("pages/*.html", "pages", "base.tmpl"),
+    ("pages/*.rst", "pages", "post.tmpl"),
+    ("pages/*.md", "pages", "post.tmpl"),
+    ("pages/*.txt", "pages", "post.tmpl"),
+    ("pages/*.html", "pages", "post.tmpl"),
 )
 
 
