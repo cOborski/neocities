@@ -39,19 +39,35 @@
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/hello.py.html</loc>
-  <lastmod>2024-09-17T03:53:00Z</lastmod>
+  <lastmod>2024-09-17T22:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/</loc>
-  <lastmod>2024-09-17T03:07:00Z</lastmod>
+  <lastmod>2024-09-17T23:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/about/</loc>
   <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
+  <loc>https://coborski.neocities.org/pages/css-test-page/</loc>
+  <lastmod>2024-09-17T23:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/pages/css-test-page/index.src.html</loc>
+  <lastmod>2024-09-17T23:02:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://coborski.neocities.org/pages/links/</loc>
   <lastmod>2024-09-17T02:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/pages/page/</loc>
+  <lastmod>2024-09-17T23:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/pages/page/index.src.html</loc>
+  <lastmod>2024-09-17T23:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/test-page/</loc>
@@ -71,6 +87,6 @@
  </url>
  <url>
   <loc>https://coborski.neocities.org/tags.html</loc>
-  <lastmod>2024-09-17T03:53:00Z</lastmod>
+  <lastmod>2024-09-17T22:57:00Z</lastmod>
  </url>
 </urlset>

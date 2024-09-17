@@ -1,5 +1,5 @@
 [Theme]
 engine = jinja
-parent = base
+parent = base-jinja
 author = Catherine Oborski
 license = GPL-3.0

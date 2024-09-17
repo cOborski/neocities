@@ -1,75 +1,105 @@
 <!DOCTYPE html>
-<html><body>
-<p>{#  -*- coding: utf-8 -*- #}
-{% import 'index_helper.tmpl' as helper with context %}
-{% import 'math_helper.tmpl' as math with context %}
-{% import 'post_helper.tmpl' as post with context %}
-{% import 'comments_helper.tmpl' as comments with context %}
-{% import 'pagination_helper.tmpl' as pagination with context %}
-{% import 'feeds_translations_helper.tmpl' as feeds_translations with context %}
-{% extends 'base.tmpl' %}
+<html prefix="
+        og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+    " vocab="http://ogp.me/ns" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="The personal web site of Catherine Oborski">
+<meta name="viewport" content="width=device-width">
+<title>Catherine's Home on the Web</title>
+<link href="assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/rst_base.css" rel="stylesheet" type="text/css">
+<link href="assets/css/index.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
+<link rel="alternate" type="application/atom+xml" title="Atom" hreflang="en" href="feed.atom">
+<link rel="canonical" href="https://coborski.neocities.org/">
+<!--[if lt IE 9]><script src="assets/js/html5shiv-printshiv.min.js"></script><![endif]--><link rel="prefetch" href="posts/test-post-2/" type="text/html">
+</head>
+<body>
+    <input id="dark-mode" type="checkbox"><div class="theme">
+        <div class="layout">
+                <header class="cover"><h1 id="brand" class="cover__title">
+<a href="." title="Catherine's Home on the Web" rel="home">
 
-{% block extra_head %}
-    {{ super() }}
-    {% if posts and (permalink == '/' or permalink == '/' + index_file) %}
-        <link rel="prefetch" href="{{%20posts[0].permalink()%20}}" type="text/html">
-    {% endif %}
-    {{ math.math_styles_ifposts(posts) }}
-{% endblock %}
+            <span id="blog-title">Catherine's Home on the Web</span>
+        </a>
+        </h1>
 
-{% block content %}
-{% block content_header %}
-    {{ feeds_translations.translation_link(kind) }}
-{% endblock %}
-{% if 'main_index' in pagekind %}
-    {{ front_index_header }}
-{% endif %}
-{% if page_links %}
-    {{ pagination.page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed) }}
-{% endif %}
-</p>
-<div class="postindex">
-{% for post in posts %}
-    <article class="h-entry post-{{ post.meta('type') }}" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h3 class="header__title p-name entry-title"><a href="{{%20post.permalink()%20}}" class="hover:header__title__link u-url">{{ post.title()|e }}</a></h3>
+    <div>
+    <label class="dark-mode-label hover:dark-mode-label" for="dark-mode">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation: isolate;" viewbox="0 0 416 416" width="30px" height="30px"><defs><clippath id="_clipPath_qEPwrMg7OPn6mDBNPkG6Nqc7qffgU4IC"><rect width="416" height="416"></rect></clippath></defs><g clip-path="url(#_clipPath_qEPwrMg7OPn6mDBNPkG6Nqc7qffgU4IC)"><path d=" M 304 88 C 304 57.38 299.49 26.39 288 0 C 364.43 33.27 416 111.32 416 200 C 416 319.29 319.29 416 200 416 C 111.32 416 33.27 364.43 0 288 C 26.39 299.49 57.38 304 88 304 C 207.29 304 304 207.29 304 88 Z "></path></g></svg></label>
+    
+    </div>
+
+
+    </header><input id="cool-menu" type="checkbox"><label for="cool-menu" class="cool-menu__label">
+        <svg class="cool-menu hover:cool-menu checked:cool-menu" viewbox="0 0 100 100" width="40" height="40" aria-hidden="true"><circle cx="50" cy="50" r="50" fill-opacity="0.5"></circle></svg></label>
+        <nav class="menu"><ul>
+<li><a href="archive.html">Archives</a></li>
+                <li><a href="categories/index.html">Tags</a></li>
+                <li><a href="pages/index.html">Pages</a></li>
+                <li><a href="posts/index.html">Posts</a></li>
+                <li><a href="rss.xml">RSS feed</a></li>
+
+    
+    
+    
+    </ul></nav><main id="content" class="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h3 class="header__title p-name entry-title"><a href="posts/test-post-2/" class="hover:header__title__link u-url">Test Post 2</a></h3>
         <div class="article__meta">
             <span class="byline author vcard">
             <span class="byline-name fn" itemprop="author">
-            {% if author_pages_generated %}
-                <a class="article__meta__link hover:article__meta__link" href="{{%20_link('author',%20post.author())%20}}">{{ post.author()|e }}</a>
-            {% else %}
-                {{ post.author()|e }}
-            {% endif %}
+                Catherine Oborski
             </span>
             </span>
-            {% for tag in post.tags %}
-                | <a class="tag p-category article__meta__link hover:article__meta__link" href="{{%20_link('tag',%20tag)%20}}" rel="tag">#{{ tag|e }}</a>
-            {% endfor %}
             <span class="dateline">
-            | <a class="article__meta__link hover:article__meta__link" href="{{%20post.permalink()%20}}" rel="bookmark">
-            <time class="published dt-published" datetime="{{ post.formatted_date('webiso') }}" itemprop="datePublished" title="{{ post.formatted_date(date_format)|e }}">{{ post.formatted_date(date_format)|e }}</time>
-            {% if post.updated and post.updated != post.date %}
-                <span class="updated"> ({{ messages("updated") }}
-                    <time class="dt-updated" datetime="{{ post.formatted_updated('webiso') }}" itemprop="dateUpdated" title="{{ post.formatted_updated(date_format)|e }}">{{ post.formatted_updated(date_format)|e }}</time>)</span>
-            {% endif %}
-            </a>
+            | <a class="article__meta__link hover:article__meta__link" href="posts/test-post-2/" rel="bookmark">
+            <time class="published dt-published" datetime="2024-09-16T22:06:15-05:00" itemprop="datePublished" title="2024-09-16 22:06">2024-09-16 22:06</time></a>
             </span>
-            {% if not post.meta('nocomments') and site_has_comments %}
-                <span class="commentline">{{ comments.comment_link(post.permalink(), post._base_path) }}
-            {% endif %}
+                <span class="commentline">            <a href="posts/test-post-2/#utterances-thread">Comments</a>
+
+
         </span>
 </div>
-    </header>
-    {% if index_teasers %}
-
-    {% else %}
-    <div class="e-content entry-content">
-    {{ post.text(teaser_only=False) }}
+    </header><div class="e-content entry-content">
+    <p>Write your post here.</p>
     </div>
-    {% endif %}
-    </article>
-{% endfor %}
-{{ helper.html_pager() }}
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h3 class="header__title p-name entry-title"><a href="posts/test-post/" class="hover:header__title__link u-url">Test Post</a></h3>
+        <div class="article__meta">
+            <span class="byline author vcard">
+            <span class="byline-name fn" itemprop="author">
+                Catherine Oborski
+            </span>
+            </span>
+            <span class="dateline">
+            | <a class="article__meta__link hover:article__meta__link" href="posts/test-post/" rel="bookmark">
+            <time class="published dt-published" datetime="2024-09-16T22:05:20-05:00" itemprop="datePublished" title="2024-09-16 22:05">2024-09-16 22:05</time></a>
+            </span>
+                <span class="commentline">            <a href="posts/test-post/#utterances-thread">Comments</a>
+
+
+        </span>
 </div>
-{{ comments.comment_link_script() }}
-{{ math.math_scripts_ifposts(posts) }}
-{% endblock %}</body></html>
+    </header><div class="e-content entry-content">
+    <p>Write your post here.</p>
+    </div>
+    </article>
+</div>
+    
+
+
+            </main>
+</div>
+    </div>
+                <script src="assets/js/index.js"></script><script src="assets/js/baguetteBox.min.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>
