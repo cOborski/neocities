@@ -1,0 +1,242 @@
+/**
+ * Welcome neocitizen!
+ * Description:
+ *    CSS written for coborski.neocities.org
+ * Author:
+ *    Catherine Oborski, et all.
+ */
+
+/**
+ * Variables
+ */
+
+:root {
+  /*colors*/
+  --oxford-blue: #011638ff;
+  --space-cadet: #2e294eff;
+  --purpureus: #9055a2ff;
+  --lilac: #d499b9ff;
+  --tea-rose-red: #e8c1c5ff;
+  --rose-quartz: #bcabae;
+  --cerulean: #247ba0ff;
+  --verdigris: #70c1b3ff;
+  --celadon: #b2dbbfff;
+  --cream: #f3ffbdff;
+  --folly: #ff66cc;
+  /*--folly: #ff1654ff;*/
+  /*page*/
+  --color-primary: var(--space-cadet);
+  --color-primary-alt: var(--purpureus);
+  --color-secondary: var(--lilac);
+  --color-background: var(--oxford-blue);
+  --color-text: #412d86;
+  --color-light: #fff;
+  --color-anchor: #3a00ff;
+  --font-family: "Quicksand", sans-serif;
+  --font-weight-strong: 500;
+}
+
+/**
+ * From: https://fonts.google.com/selection/embed
+ * <uniquifier>: Use a unique and descriptive class name
+ * <weight>: Use a value from 300 to 700
+ */
+
+.quicksand-main {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-strong);
+  font-style: normal;
+}
+
+/**
+ * Body
+ */
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: var(--color-background);
+  color: var(--rose-quartz);
+  border-style: hidden;
+  text-align: justify;
+
+  /* font */
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-strong);
+  font-style: normal;
+  padding-top: 1%;
+}
+
+/**
+ * Accessibility stuff
+ */
+ 
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/**
+ * Navigation
+ */
+
+.navigation-menu {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+.navigation-link {
+  padding: 1%;
+}
+
+/**
+ * Headers
+ */
+
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--folly);
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  color: var(--celadon);
+}
+
+h3 {
+  font-weight: bold;
+  color: var(--cerulean);
+}
+
+h4 {
+  font-weight: bold;
+  color: var(--cerulean);
+}
+
+h5 {
+  font-weight: bold;
+  color: var(--cerulean);
+}
+
+h6 {
+  font-weight: bold;
+  color: var(--cerulean);
+}
+
+/**
+ * Text
+ */
+
+p {
+  color: var(--rose-quartz);
+}
+
+/**
+ * Images
+ */
+
+.divider {
+  text-align: center
+}
+
+/**
+ * Links
+ */
+
+.link,
+a:link {
+  color: var(--lilac);
+  text-decoration: underline dotted var(--purpureus);
+}
+
+.link,
+a:visited {
+  color: var(--purpureus);
+  text-decoration: underline dotted;
+}
+
+.link,
+a:hover {
+  color: var(--purpureus);
+}
+
+/**
+ * Code below
+ */
+
+/* Always best to test responsiveness with the font(s) you use in production as all fonts vary in size rendered and usually have their own specific "quirks" */
+
+/* Base font size calculation considering both viewport width (vw) and height (vh) */
+body {
+  font-size: calc(1vw + 1vh + 0.5vmin);
+}
+
+/* Adjust font size for viewports wider than 300px */
+@media (min-width: 300px) {
+  body {
+    font-size: calc(
+      0.8rem + (1.2vw + 1.2vh + 0.5vmin) * ((100vw - 300px) / 700)
+    );
+  }
+}
+
+/* Adjust font size for viewports narrower than 1000px */
+@media (max-width: 1000px) {
+  body {
+    font-size: calc(
+      0.8rem + (1.2vw + 1.2vh + 0.5vmin) * ((1000px - 100vw) / 700)
+    );
+  }
+}
+
+/* Ensure the font size stays within a readable range */
+body {
+  font-size: clamp(12px, calc((1vw + 1vh + 0.5vmin) * .6), 24px);
+}
+
+/* demo stuff below */
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+}
+
+article {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--space-cadet);
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+  font-size: clamp(12px, calc((1vw + 1vh + 0.5vmin) * .3), 24px);
+}
+
+ .blinkie {
+  margin: 5px;
+}
+
+ .update {
+  padding-right: 2%;
+}

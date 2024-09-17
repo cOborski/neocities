@@ -1,0 +1,9 @@
+[project]
+name = "coborski-neocities"
+version = "0.1.0-alpha"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "nikola>=8.3.1",
+]

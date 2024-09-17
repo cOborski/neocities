@@ -4,7 +4,6 @@
 *.cuda-proj
 
 # Nikola
-# public/
 cache/
 __pycache__/
 */__pycache__/
@@ -13,3 +12,7 @@ __pycache__/
 .doit.db.dir
 nikola-build-info.md
 */demo/
+
+# uv
+.venv/
+uv.lock
