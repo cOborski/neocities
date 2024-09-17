@@ -7,7 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://coborski.neocities.org/</loc>
-  <lastmod>2024-09-17T02:58:00Z</lastmod>
+  <lastmod>2024-09-17T03:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/2024/</loc>
+  <lastmod>2024-09-17T03:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/2024/09/</loc>
+  <lastmod>2024-09-17T03:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories/</loc>
@@ -35,7 +43,7 @@
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/</loc>
-  <lastmod>2024-09-17T02:58:00Z</lastmod>
+  <lastmod>2024-09-17T03:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/about/</loc>
@@ -46,8 +54,20 @@
   <lastmod>2024-09-17T02:58:00Z</lastmod>
  </url>
  <url>
+  <loc>https://coborski.neocities.org/pages/test-page/</loc>
+  <lastmod>2024-09-17T03:07:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://coborski.neocities.org/pages/test/</loc>
   <lastmod>2024-09-17T02:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/posts/test-post-2/</loc>
+  <lastmod>2024-09-17T03:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/posts/test-post/</loc>
+  <lastmod>2024-09-17T03:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/tags.html</loc>
