@@ -1,12 +1,4 @@
 /**
- * Welcome neocitizen!
- * Description:
- *    CSS written for coborski.neocities.org
- * Author:
- *    Catherine Oborski, et all.
- */
-
-/**
  * Variables
  */
 
@@ -34,6 +26,23 @@
   --color-anchor: #3a00ff;
   --font-family: "Quicksand", sans-serif;
   --font-weight-strong: 500;
+  /*from willy-theme*/
+  --primary-color: var(--cream);
+  --default-color: var(--purpureus);
+  --inverse-color: var(--oxford-blue);
+}
+
+/**
+ * theme/dark theme from willy-theme
+ */
+#dark-mode:checked~.theme {
+    --primary-color: var(--oxford-blue);
+    --default-color: var(--purpureus);
+    --inverse-color: var(--cream);
+}
+.theme {
+    background-color: var(--inverse-color);
+    color: var(--default-color);
 }
 
 /**
@@ -47,7 +56,201 @@
   font-optical-sizing: auto;
   font-weight: var(--font-weight-strong);
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
+
+/**
+ * Cover from willy-theme
+ */
+
+.cover {
+    width: 100%;
+    top: 0;
+    text-align: center;
+    margin-bottom: 3rem;
+    z-index: 10;
+}
+.cover__title {
+    font-size: 2.25rem;
+    margin-top: 1.5rem;
+}
+
+/**
+ * Menu from willy-theme
+ */
+
+/*
+.menu {
+    position: fixed;
+    background-color: var(--inverse-color);
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    display: none;
+    padding-top: 1rem;
+    visibility: hidden;
+    opacity: 0;
+}
+.menu ul li {
+    margin-bottom: 1rem;
+}
+.menu ul li.active {
+    --text-opacity: 1;
+    color: #38b2ac;
+    color: rgba(56, 178, 172, var(--text-opacity));
+}
+*/
+
+.content {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+/**
+ * from willy-theme
+ */
+
+.pagination {
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.pagination, .tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags {
+    justify-content: flex-start;
+}
+.pagination li, .tags li {
+    list-style-type: none;
+    margin: 0;
+}
+.tags li {
+    margin-right: .75rem;
+}
+.menu__link, .pagination__link {
+    --text-opacity: 1;
+    color: #3182ce;
+    color: rgba(49, 130, 206, var(--text-opacity));
+}
+.dark-mode-label {
+    color: #38b2ac;
+    color: rgba(56, 178, 172, var(--text-opacity));
+}
+.hover\:menu__link:hover, .hover\:pagination__link:hover {
+    --text-opacity: 1;
+    color: #3182ce;
+    color: rgba(49, 130, 206, var(--text-opacity));
+}
+.hover\:dark-mode-label:hover {
+    --text-opacity: 1;
+    color: #38b2ac;
+    color: rgba(56, 178, 172, var(--text-opacity));
+}
+.dark-mode-label {
+    vertical-align: bottom;
+    display: inline-block;
+    cursor: pointer;
+    fill: currentColor;
+    --text-opacity: 1;
+    color: #718096;
+    color: rgba(113, 128, 150, var(--text-opacity));
+}
+
+/**
+ * This gets rid of the visable checkboxes
+ */
+#cool-menu, #dark-mode {
+    position: fixed;
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: 0;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    --transform-scale-x: 0;
+    --transform-scale-y: 0;
+}
+
+/*
+#cool-menu+label>svg, #cool-menu:checked+label>svg {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .5s;
+}
+#cool-menu:checked+label>svg {
+    --text-opacity: 1;
+    color: #38b2ac;
+    color: rgba(56, 178, 172, var(--text-opacity));
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: 0;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    --transform-rotate: 180deg;
+}
+*/
+/*
+#cool-menu:checked~.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+}
+*/
+/*
+.cool-menu {
+    fill: currentColor;
+    color: var(--default-color);
+}
+*/
+/*
+.cool-menu__label {
+    left: 50%;
+    position: fixed;
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: 0;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    --transform-translate-x: -50%;
+    //bottom: 0;
+    z-index: 50;
+    //margin-bottom: 1rem;
+}
+*/
+/*
+@media (min-width:1024px) {
+    .menu {
+    width: 25%;
+    border-right-width: 1px;
+    --border-opacity: 1;
+    border-color: #edf2f7;
+    border-color: rgba(237, 242, 247, var(--border-opacity));
+    border-bottom-width: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: right;
+    display: block;
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+}
+*/
 
 /**
  * Body

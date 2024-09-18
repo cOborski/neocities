@@ -36,18 +36,6 @@
     {% endif %}
 
     </header>
-    <input id="cool-menu" type="checkbox" />
-      <label for="cool-menu" class="cool-menu__label">
-        <svg
-            class="cool-menu hover:cool-menu checked:cool-menu"
-            viewBox="0 0 100 100"
-            width="40"
-            height="40"
-            aria-hidden="true"
-        >
-            <circle cx="50" cy="50" r="50" fill-opacity="0.5"/>
-        </svg>
-      </label>
     {{ html_navigation_links() }}
 
     {{ template_hooks['page_header']() }}
@@ -75,7 +63,7 @@
 {% endmacro %}
 
 {% macro html_navigation_links() %}
-    <nav class="menu">
+    <nav class="menu, navigation-menu">
     {{ html_navigation_links_entries(navigation_links) }}
     {{ html_navigation_links_entries(navigation_alt_links) }}
     {{ template_hooks['menu']() }}
@@ -85,18 +73,19 @@
 
 {% macro html_navigation_links_entries(navigation_links_source) %}
     {% for url, text in navigation_links_source[lang] %}
+    <span class=navigation-link><a href="/"><img src="/images/small-pink-dragon.gif" style="width: 5%;">
         {% if isinstance(url, tuple) %}
             {{ text }}
             {% for suburl, text in url %}
                 {% if rel_link(permalink, suburl) == "#" %}
-                    <span class="active"><a href="{{ permalink }}">{{ text }}<span class="sr-only"> {{ messages("(active)", lang) }}</span></a></span>
+                    <span class="active, navigation-link"><a href="{{ permalink }}"><img src="/images/small-pink-dragon.gif" style="width: 5%;">{{ text }}<span class="sr-only"> {{ messages("(active)", lang) }}</span></a></span>
                 {% else %}
                     <span><a href="{{ suburl }}">{{ text }}</a></span>
                 {% endif %}
             {% endfor %}
         {% else %}
             {% if rel_link(permalink, url) == "#" %}
-                <span class="active"><a href="{{ permalink }}">{{ text }}</a></span>
+                <span class="active, navigation-link"><a href="{{ permalink }}"><img src="/images/small-pink-dragon.gif" style="width: 5%;">{{ text }}</a></span>
             {% else %}
                 <span><a href="{{ url }}">{{ text }}</a></span>
             {% endif %}

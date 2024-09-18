@@ -4,7 +4,7 @@
 
 {% macro html_title() %}
 {% if title and not post.meta('hidetitle') %}
-    <h2 class="p-name entry-title header__title" itemprop="headline name"><a href="{{ post.permalink() }}" class="u-url hover:header__title__link">{{ post.title()|e }}</a></h2>
+    <h1 class="p-name entry-title header__title" itemprop="headline name"><a href="{{ post.permalink() }}" class="u-url hover:header__title__link">{{ post.title()|e }}</a></h1>
 {% endif %}
 {% endmacro %}
 
