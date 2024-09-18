@@ -76,33 +76,29 @@
 
 {% macro html_navigation_links() %}
     <nav class="menu">
-    <ul>
     {{ html_navigation_links_entries(navigation_links) }}
     {{ html_navigation_links_entries(navigation_alt_links) }}
     {{ template_hooks['menu']() }}
     {{ template_hooks['menu_alt']() }}
-    </ul>
     </nav>
 {% endmacro %}
 
 {% macro html_navigation_links_entries(navigation_links_source) %}
     {% for url, text in navigation_links_source[lang] %}
         {% if isinstance(url, tuple) %}
-            <li> {{ text }}
-            <ul>
+            {{ text }}
             {% for suburl, text in url %}
                 {% if rel_link(permalink, suburl) == "#" %}
-                    <li class="active"><a href="{{ permalink }}">{{ text }}<span class="sr-only"> {{ messages("(active)", lang) }}</span></a></li>
+                    <span class="active"><a href="{{ permalink }}">{{ text }}<span class="sr-only"> {{ messages("(active)", lang) }}</span></a></span>
                 {% else %}
-                    <li><a href="{{ suburl }}">{{ text }}</a></li>
+                    <span><a href="{{ suburl }}">{{ text }}</a></span>
                 {% endif %}
             {% endfor %}
-            </ul>
         {% else %}
             {% if rel_link(permalink, url) == "#" %}
-                <li class="active"><a href="{{ permalink }}">{{ text }}</a></li>
+                <span class="active"><a href="{{ permalink }}">{{ text }}</a></span>
             {% else %}
-                <li><a href="{{ url }}">{{ text }}</a></li>
+                <span><a href="{{ url }}">{{ text }}</a></span>
             {% endif %}
         {% endif %}
     {% endfor %}

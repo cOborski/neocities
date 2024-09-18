@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet href="https://coborski.neocities.org/assets/xml/atom.xsl" type="text/xsl media="all"?>
 <feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
-  <title>Catherine's Home on the Web</title>
-  <id>https://coborski.neocities.org/feed.atom</id>
+  <title>Catherine's Home on the Web (Posts about test)</title>
+  <id>https://coborski.neocities.org/test.atom</id>
   <updated>2024-09-18T18:30:38Z</updated>
   <author>
     <name>Catherine Oborski</name>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://coborski.neocities.org/feed.atom"/>
-  <link rel="alternate" type="text/html" href="https://coborski.neocities.org/"/>
+  <link rel="self" type="application/atom+xml" href="https://coborski.neocities.org/test.atom"/>
+  <link rel="alternate" type="text/html" href="https://coborski.neocities.org/test/"/>
   <generator uri="https://getnikola.com/">Nikola</generator>
   <entry>
     <title>test 3</title>

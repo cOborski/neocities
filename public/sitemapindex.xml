@@ -6,23 +6,55 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://coborski.neocities.org/categories/blog.atom</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://coborski.neocities.org/categories/blog.xml</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://coborski.neocities.org/categories/test.atom</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://coborski.neocities.org/categories/test.xml</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://coborski.neocities.org/categories/test2.atom</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://coborski.neocities.org/categories/test2.xml</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://coborski.neocities.org/feed.atom</loc>
-  <lastmod>2024-09-17T03:07:00Z</lastmod>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://coborski.neocities.org/galleries/demo/rss.xml</loc>
-  <lastmod>2024-09-17T22:57:00Z</lastmod>
+  <lastmod>2024-09-18T18:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://coborski.neocities.org/galleries/rss.xml</loc>
-  <lastmod>2024-09-17T22:57:00Z</lastmod>
+  <lastmod>2024-09-18T18:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://coborski.neocities.org/rss.xml</loc>
-  <lastmod>2024-09-17T03:07:00Z</lastmod>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://coborski.neocities.org/sitemap.xml</loc>
-  <lastmod>2024-09-17T23:02:00Z</lastmod>
+  <lastmod>2024-09-18T18:36:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://coborski.neocities.org/test.atom</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://coborski.neocities.org/test.xml</loc>
+  <lastmod>2024-09-18T18:30:00Z</lastmod>
  </sitemap>
 </sitemapindex>

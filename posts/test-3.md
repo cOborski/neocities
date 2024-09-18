@@ -1,12 +1,11 @@
 ---
 category: 'test'
-date: 2024-09-16 22:05:20 UTC-05:00
+date: 2024-09-18 13:03:44 UTC-05:00
 description: ''
 link: ''
-slug: test-post
+slug: test-3
 tags: ''
-title: Test Post
+title: test 3
 type: text
-template: base.tmpl
 ---
 Write your post here.
