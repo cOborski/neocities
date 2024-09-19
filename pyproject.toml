@@ -1,10 +1,12 @@
 [project]
 name = "coborski-neocities"
 version = "0.1.0-alpha"
-description = "Add your description here"
+description = "The personal website of Catherine Oborski"
+url = "https://coborski.neocities.org/"
+repo = "https://github.com/cOborski/neocities"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "jinja2>=3.1.4",
-    "nikola[extras]>=8.3.1",
+    "nikola[extras,tests]>=8.3.1",
 ]
