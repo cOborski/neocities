@@ -7,102 +7,58 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://coborski.neocities.org/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/2024/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/2024/09/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories.html</loc>
-  <lastmod>2024-09-19T01:44:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/blog/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/test/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/categories/test2/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/galleries/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/galleries/demo/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/__pycache__/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/hello.py.html</loc>
-  <lastmod>2024-09-19T01:44:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/about/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/css-test-page/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/guestbook/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/links/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/site-meta/</loc>
-  <lastmod>2024-09-19T00:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/pages/site-meta/css-test-page/</loc>
-  <lastmod>2024-09-19T00:26:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/under-construction/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/posts/test-3/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/posts/test-post-2/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/posts/test-post/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/tags.html</loc>
-  <lastmod>2024-09-19T01:44:00Z</lastmod>
- </url>
- <url>
-  <loc>https://coborski.neocities.org/test/</loc>
-  <lastmod>2024-09-19T01:08:00Z</lastmod>
+  <lastmod>2024-09-19T01:57:00Z</lastmod>
  </url>
 </urlset>
