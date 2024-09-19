@@ -11,9 +11,6 @@
 
 > My personal website generated using the Nikola static site generator and hosted on neocities.
 
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FcOborski%2Fneocities.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FcOborski%2Fneocities?ref=badge_large)
-
 ### 🏠 [Homepage](https://coborski.neocities.org/)
 
 ## Install
@@ -69,3 +66,5 @@ This project's code is [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) lice
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FcOborski%2Fneocities.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FcOborski%2Fneocities?ref=badge_large)
