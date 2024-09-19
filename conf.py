@@ -148,13 +148,13 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home"),
-        ("/pages/about", "About"),
+        ("/pages/about/", "About"),
         ("https://coborski.bearblog.dev/blog/", "ʕ•ᴥ•ʔ blog"),
-        ("/pages/links", "Links"),
+        ("/pages/links/", "Links"),
         ("/pages/guestbook", "Guestbook"),
-        ("/categories", "Categories"),
-        ("/tags", "Tags"),
-        ("/pages/css-test-page", "CSS Test Page"),
+        ("/categories/", "Categories"),
+        ("/tags/", "Tags"),
+        ("/pages/css-test-page/", "CSS Test Page"),
         ("/sitemap.xml", "Sitemap"),
         ("/feed.atom", "Atom"),
         ("/rss.xml", "RSS"),
