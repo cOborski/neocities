@@ -6,9 +6,13 @@
   <a href="https://mas.to/@cOborski" target="_blank">
     <img alt="Twitter: cOborski" src="https://img.shields.io/mastodon/follow/110906684111866592?domain=https%3A%2F%2Fmas.to%2F" />
   </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FcOborski%2Fneocities?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FcOborski%2Fneocities.svg?type=shield"/></a>
 </p>
 
 > My personal website generated using the Nikola static site generator and hosted on neocities.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FcOborski%2Fneocities.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FcOborski%2Fneocities?ref=badge_large)
 
 ### 🏠 [Homepage](https://coborski.neocities.org/)
 
