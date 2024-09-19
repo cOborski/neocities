@@ -7,90 +7,106 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://coborski.neocities.org/</loc>
-  <lastmod>2024-09-19T02:17:00Z</lastmod>
+  <lastmod>2024-09-19T20:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/2024/</loc>
-  <lastmod>2024-09-19T02:17:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/2024/09/</loc>
-  <lastmod>2024-09-19T02:17:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories.html</loc>
-  <lastmod>2024-09-19T02:45:00Z</lastmod>
+  <lastmod>2024-09-19T20:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/categories/about/</loc>
+  <lastmod>2024-09-19T20:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories/dev-news/</loc>
-  <lastmod>2024-09-19T02:17:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories/link/</loc>
-  <lastmod>2024-09-19T02:17:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories/news/</loc>
-  <lastmod>2024-09-19T02:17:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/categories/node-js/</loc>
-  <lastmod>2024-09-19T02:26:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/categories/software-recomendations/</loc>
+  <lastmod>2024-09-19T20:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/galleries/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/galleries/demo/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/links/</loc>
-  <lastmod>2024-09-19T02:17:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/__pycache__/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/listings/hello.py.html</loc>
-  <lastmod>2024-09-19T02:45:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/about/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/css-test-page/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/guestbook/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/links/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/pages/under-construction/</loc>
-  <lastmod>2024-09-19T01:57:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/posts/after-governance-breakdown-nodejs-leaders-fight-for-its-survival/</loc>
-  <lastmod>2024-09-19T02:26:00Z</lastmod>
+  <lastmod>2024-09-19T20:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/posts/state-of-the-apps/</loc>
+  <lastmod>2024-09-19T20:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://coborski.neocities.org/recommendations/</loc>
+  <lastmod>2024-09-19T20:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://coborski.neocities.org/tags.html</loc>
-  <lastmod>2024-09-19T02:45:00Z</lastmod>
+  <lastmod>2024-09-19T20:45:00Z</lastmod>
  </url>
 </urlset>
