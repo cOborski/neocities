@@ -1,0 +1,12 @@
+# Night Dragon
+## A Nikola Theme
+
+This theme uses modified templates from the [*Willy Theme*](https://github.com/Woile/willy-theme) for Nikola by Santiago Fraire Willemoes, also licenced under GPL-3.0
+
+```
+[Theme]
+engine = jinja
+parent = base-jinja
+author = Catherine Oborski
+license = GPL-3.0
+```

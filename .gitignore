@@ -1,3 +1,18 @@
 # Git ignore
 
+# Cuda
 *.cuda-proj
+
+# Nikola
+cache/
+__pycache__/
+*/__pycache__/
+.doit.db.bak
+.doit.db.dat
+.doit.db.dir
+nikola-build-info.md
+*/demo/
+
+# uv
+.venv/
+uv.lock

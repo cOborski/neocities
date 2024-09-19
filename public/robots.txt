@@ -1,0 +1,6 @@
+Sitemap: https://coborski.neocities.org/sitemapindex.xml
+
+User-Agent: *
+Disallow: /archive.html
+Disallow: /category/*.html
+Host: coborski.neocities.org

@@ -1,0 +1,101 @@
+{#  -*- coding: utf-8 -*- #}
+{% import 'base_helper.tmpl' as base with context %}
+
+{% macro html_header() %}
+    <header class="cover">
+    {{ html_site_title() }}
+    <div>
+    <label class="dark-mode-label hover:dark-mode-label" for="dark-mode">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io --><svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            style="isolation: isolate;"
+            viewBox="0 0 416 416"
+            width="30px"
+            height="30px"
+        >
+            <defs>
+            <clipPath id="_clipPath_qEPwrMg7OPn6mDBNPkG6Nqc7qffgU4IC">
+                <rect width="416" height="416" />
+            </clipPath>
+            </defs>
+            <g clip-path="url(#_clipPath_qEPwrMg7OPn6mDBNPkG6Nqc7qffgU4IC)">
+            <path
+                d=" M 304 88 C 304 57.38 299.49 26.39 288 0 C 364.43 33.27 416 111.32 416 200 C 416 319.29 319.29 416 200 416 C 111.32 416 33.27 364.43 0 288 C 26.39 299.49 57.38 304 88 304 C 207.29 304 304 207.29 304 88 Z "
+            />
+            </g>
+        </svg>
+    </label>
+    {{ html_translation_header() }}
+    </div>
+
+    {% if search_form %}
+        <div class="searchform" role="search">
+            {{ search_form }}
+        </div>
+    {% endif %}
+
+    </header>
+    {{ html_navigation_links() }}
+
+    {{ template_hooks['page_header']() }}
+{% endmacro %}
+
+{% macro html_site_title() %}
+    {% if 'index' in pagekind %}
+        <h1 id="brand" class="cover__title"><a href="{{ _link("root", None, lang) }}" title="{{ blog_title|e }}" rel="home">
+        {% if logo_url %}
+            <img src="{{ logo_url }}" alt="{{ blog_title|e }}" id="logo">
+        {% endif %}
+
+        {% if show_blog_title %}
+            <span id="blog-title">{{ blog_title|e }}</span>
+        {% endif %}
+        </a>
+        </h1>
+    {% else %}
+        <h3 id="brand" ><a href="{{ _link("root", None, lang) }}" title="{{ blog_title|e }}" rel="home">
+        {% if show_blog_title %}
+            <span id="blog-title">{{ blog_title|e }}</span>
+        {% endif %}
+        </h3>
+    {% endif %}
+{% endmacro %}
+
+{% macro html_navigation_links() %}
+    <nav class="menu, navigation-menu">
+    {{ html_navigation_links_entries(navigation_links) }}
+    {{ html_navigation_links_entries(navigation_alt_links) }}
+    {{ template_hooks['menu']() }}
+    {{ template_hooks['menu_alt']() }}
+    </nav>
+{% endmacro %}
+
+{% macro html_navigation_links_entries(navigation_links_source) %}
+    {% for url, text in navigation_links_source[lang] %}
+        {% if isinstance(url, tuple) %}
+            {{ text }}
+            {% for suburl, text in url %}
+                {% if rel_link(permalink, suburl) == "#" %}
+                    <span class="active, navigation-link"><a href="{{ permalink }}"><img src="/images/small-pink-dragon.gif" style="width: 5%;">{{ text }}<span class="sr-only"> {{ messages("(active)", lang) }}</span></a></span>
+                {% else %}
+                    <span><a href="{{ suburl }}">{{ text }}</a></span>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {% if rel_link(permalink, url) == "#" %}
+                <span class="active, navigation-link"><a href="{{ permalink }}"><img src="/images/small-pink-dragon.gif" style="width: 5%;">{{ text }}</a></span>
+            {% else %}
+                <span class=navigation-link><a href="{{ url }}"><img src="/images/small-pink-dragon.gif" style="width: 5%;">{{ text }}</a></span>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{% macro html_translation_header() %}
+    {% if translations|length > 1 %}
+        <span id="toptranslations">
+            {{ base.html_translations() }}
+        </span>
+    {% endif %}
+{% endmacro %}
