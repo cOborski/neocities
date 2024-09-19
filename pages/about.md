@@ -21,7 +21,7 @@ Programmer. Writer. Wyomingite who’s left home. When I’m not writing code or
 [![Github Profile Trophies](https://github-profile-trophy.vercel.app/?username=coborski&theme=tokyonight)](https://github.com/cOborski)
 
 ### Languages (Public Repositories on Github)
-[![Github Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=coborski&langs_count=20&layout=donut-vertical)](https://github.com/cOborski)
+[![Github Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=coborski&langs_count=20&layout=donut-vertical&theme=tokyonight)](https://github.com/cOborski)
 
 # My Web History
 
@@ -30,4 +30,4 @@ A paragraph (from the Greek paragraphos, “to write beside” or “written bes
 # This Site
 
 ## Repo
-[![Github Repo](https://github-readme-stats.vercel.app/api/pin/?username=coborski&repo=neocities)](https://github.com/cOborski/neocities)
+[![Github Repo](https://github-readme-stats.vercel.app/api/pin/?username=coborski&repo=neocities&theme=tokyonight)](https://github.com/cOborski/neocities)
