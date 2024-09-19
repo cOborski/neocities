@@ -3,6 +3,7 @@
 {% macro html_footer() %}
     {% if content_footer %}
         <footer class="article__meta">
+            <p><a href="#top">[Top]</a></p>
             <p>{{ content_footer }}</p>
             {{ template_hooks['page_footer']() }}
         </footer>

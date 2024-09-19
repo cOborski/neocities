@@ -73,7 +73,6 @@
 
 {% macro html_navigation_links_entries(navigation_links_source) %}
     {% for url, text in navigation_links_source[lang] %}
-    <span class=navigation-link><a href="/"><img src="/images/small-pink-dragon.gif" style="width: 5%;">
         {% if isinstance(url, tuple) %}
             {{ text }}
             {% for suburl, text in url %}
@@ -87,7 +86,7 @@
             {% if rel_link(permalink, url) == "#" %}
                 <span class="active, navigation-link"><a href="{{ permalink }}"><img src="/images/small-pink-dragon.gif" style="width: 5%;">{{ text }}</a></span>
             {% else %}
-                <span><a href="{{ url }}">{{ text }}</a></span>
+                <span class=navigation-link><a href="{{ url }}"><img src="/images/small-pink-dragon.gif" style="width: 5%;">{{ text }}</a></span>
             {% endif %}
         {% endif %}
     {% endfor %}

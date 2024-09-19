@@ -32,6 +32,22 @@
   --inverse-color: var(--oxford-blue);
 }
 
+.dragon {
+	float: left;
+		width: 50%;
+}
+
+.welcome {
+	float: right;
+		width: 50%;
+}
+.index-flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 2%;
+  text-align: left;
+}
+
 /**
  * theme/dark theme from willy-theme
  */

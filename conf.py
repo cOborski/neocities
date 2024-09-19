@@ -149,6 +149,9 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home"),
         ("/pages/about", "About"),
+        ("https://coborski.bearblog.dev/blog/", "ʕ•ᴥ•ʔ blog"),
+        ("/pages/links", "Links"),
+        ("/pages/guestbook", "Guestbook"),
         ("/rss.xml", "RSS"),
     ),
 }

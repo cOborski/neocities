@@ -5,6 +5,7 @@
 {% import 'comments_helper.tmpl' as comments with context %}
 {% import 'pagination_helper.tmpl' as pagination with context %}
 {% import 'feeds_translations_helper.tmpl' as feeds_translations with context %}
+{% import 'divider.tmpl' as divider with context %}
 {% extends 'base.tmpl' %}
 
 {% block extra_head %}
@@ -25,49 +26,133 @@
 {% if page_links %}
     {{ pagination.page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed) }}
 {% endif %}
-<div class="postindex">
-{% for post in posts %}
-    <article class="h-entry post-{{ post.meta('type') }}" itemscope="itemscope" itemtype="http://schema.org/Article">
-    <header>
-        <h3 class="header__title p-name entry-title"><a href="{{ post.permalink() }}" class="hover:header__title__link u-url">{{ post.title()|e }}</a></h3>
-        <div class="article__meta">
-            <span class="byline author vcard">
-            <span class="byline-name fn" itemprop="author">
-            {% if author_pages_generated %}
-                <a class="article__meta__link hover:article__meta__link" href="{{ _link('author', post.author()) }}">{{ post.author()|e }}</a>
-            {% else %}
-                {{ post.author()|e }}
-            {% endif %}
-            </span>
-            </span>
-            {% for tag in post.tags %}
-                | <a class="tag p-category article__meta__link hover:article__meta__link" href="{{ _link('tag', tag) }}" rel="tag">#{{ tag|e }}</a>
-            {% endfor %}
-            <span class="dateline">
-            | <a class="article__meta__link hover:article__meta__link" href="{{ post.permalink() }}" rel="bookmark">
-            <time class="published dt-published" datetime="{{ post.formatted_date('webiso') }}" itemprop="datePublished" title="{{ post.formatted_date(date_format)|e }}">{{ post.formatted_date(date_format)|e }}</time>
-            {% if post.updated and post.updated != post.date %}
-                <span class="updated"> ({{ messages("updated") }}
-                    <time class="dt-updated" datetime="{{ post.formatted_updated('webiso') }}" itemprop="dateUpdated" title="{{ post.formatted_updated(date_format)|e }}">{{ post.formatted_updated(date_format)|e }}</time>)</span>
-            {% endif %}
-            </a>
-            </span>
-            {% if not post.meta('nocomments') and site_has_comments %}
-                <span class="commentline">{{ comments.comment_link(post.permalink(), post._base_path) }}
-            {% endif %}
-        </div>
-    </header>
-    {% if index_teasers %}
 
-    {% else %}
-    <div class="e-content entry-content">
-    {{ post.text(teaser_only=False) }}
+{# CUSTOM CONTENT HERE #}
+
+<marquee>
+	<span class=update><img src="images/new.gif" alt="new" title="new" style="width: 4%;"> <a href="https://status.cafe/users/coborski"><img src="https://status.cafe/users/coborski/badge.png" alt="Status Cafe Profile"/></a>: <span id="statuscafe"><span id="statuscafe-username"></span><span id="statuscafe-content"></span></span><script src="https://status.cafe/current-status.js?name=coborski" defer></script></span>
+  <span class=update><img src="index/images/new.gif" alt="new" title="new" style="width: 4%;"> June 27th 2024: So, I've now got the ability to add comment sections...</span>
+  <span class=update><img src="images/new.gif" alt="new" title="new" style="width: 4%;"> June 19th 2024: <a href="/about/contact"><i>sign the guestbook!</i></a></span>
+	<span class=update><img src="images/new.gif" alt="new" title="new" style="width: 4%;"> June 18th 2024: <a href="https://coborski.bearblog.dev/yallre-underutilizing-blinkies/">Y'all're underutilizing blinkies</a></span>
+	<!--
+	<span class=update><img src="https://coborski.neocities.org/index/images/new.gif" alt="new" title="new" style="width: 4%;"> June 17th 2024: Fuck yeah, <i>blinkies!</i> Oh, and I made a blog for longer site updates.</span>
+  <span class=update><img src="https://coborski.neocities.org/index/images/new.gif" alt="new" title="new" style="width: 4%;"> June 17th 2024: Fleshing out some basic pages—It's a website folks!</span>
+  <span class=update><img src="https://coborski.neocities.org/index/images/new.gif" alt="new" title="new" style="width: 4%;"> June 16th 2024: The homepage is homepaging!</span>
+  -->
+</marquee>
+
+<article id="text__paragraphs">
+	<div class=index-flex-container>
+  <span class=dragon><img src="images/mountian-dragon.gif"></span>
+  <span class=welcome>
+  <header>
+    <h2>Welcome</h2>
+  </header>
+
+  <p>This neocities website is now powered by the static site engine <a href="https://getnikola.com/">Nikola!</a></p>
+
+  <h3>Visit my neocities profile!</h3>
+    <div class=blinkie>
+      <a href="https://neocities.org/site/coborski"><img src="images/neocities-pink.gif"></a>
     </div>
-    {% endif %}
-    </article>
-{% endfor %}
-{{ helper.html_pager() }}
+
+    <p>I'm here to practice my front end web development skills and make my inner 12-year-old self happy by covering everything in glitter and dragons.
+	She will not be taking criticism,, <i>thanx.</i></p>
+    </span>
+    </div>
+
+  <footer>
+    <p><a href="#top">[Top]</a></p>
+  </footer>
+</article>
+
+{{ divider }}
+
+<article id="text__paragraphs">
+  <header>
+    <h2>Collect my blinkie!</h2>
+  </header>
+
+	<span class=blinkie>
+      <a href="https://coborski.neocities.org/" alt="catherine's homepage" title="catherine's homepage"><img src="images/blinkie/catherines-homepage-colorful-handwriting.gif"></a></span>
+
+<textarea style="width: 100%; max-width: 500px; box-sizing: border-box;" data-np-intersection-state="visible" data-lt-tmp-id="lt-104218" spellcheck="false" data-gramm="false">
+<a href="https://coborski.neocities.org/" alt="catherine's homepage" title="catherine's homepage"><img src="images/catherines-homepage-colorful-handwriting.gif"></a>
+</textarea>
+
+  <footer>
+    <p><a href="#top">[Top]</a></p>
+  </footer>
+</article>
+
+{{ divider }}
+
+<article id="text__paragraphs">
+
+<div class=index-flex-container>
+<span class=dragon>
+	  <header>
+	    <h2>Pages Planned and In-progress</h2>
+	  </header>
+
+	  <p><ul>
+	  <li><a href="/web-browsers/page">web browsers</a></li>
+	  <li><a href="/pages/under-construction">tutorials</a></li>
+	  <li><a href="/pages/under-construction">how to de-google yourself</a></li>
+	  <li><a href="/pages/under-construction">personal guide to privacy and cybersecurity</a></li>
+	  <li><a href="/pages/under-construction">resources for adhd and dyslexia</a></li>
+	  <li><a href="/pages/under-construction">open source and libre software</a></li>
+	  <li><a href="/pages/under-construction">right to repair</a></li>
+	  <li><a href="/pages/under-construction">library</a></li>
+	  <li><a href="/pages/under-construction">activism and volenteering</a></li>
+	  <li><a href="/pages/guestbook">guestbook</a></li>
+	</ul></p>
+</span>
+
+<span class=welcome><img src="https://coborski.neocities.org/index/images/dragonrose-blue.gif"></span>
+
 </div>
+
+  <footer>
+    <p><a href="#top">[Top]</a></p>
+  </footer>
+</article>
+
+{{ divider }}
+
+<article id="text__paragraphs">
+  <header>
+    <h2>/**<br>
+     * Todo <br>
+      */</h2>
+    <h4>In no particular order</h4>
+  </header>
+
+  <p><ul>
+  <li>Fix image links(some of them are not relitive links bc I was playing around on codepen)</li>
+  <li>Switch to a static site generator (maybe?)</li>
+  <li>Add a github action to lint my html</li>
+  <li>Add extra documentation to help neocitizens who might be learning html/css</li>
+  <li><strike>Change the updates mauquee to a status caffe (maybe?)</strike></li>
+  <li>Add a CSS theme switcher</li>
+  <li><strike>Create a site map</strike></li>
+  <li><strike>Create a links page</strike></li>
+  <li><strike>Put mutuals and links to other indy sites on links page</strike> <strike>instead of graphix</strike>li>
+  <li>Add chatbox</li>
+  <li><strike>Add guestbook</strike></li>
+  <li>Fix CSS justifying text</li>
+  <li>No space between time and status on status caffee (me or their js?)</li>
+  </ul></p>
+
+  <footer>
+    <p><a href="#top">[Top]</a></p>
+  </footer>
+</article>
+
+{{ divider }}
+
+{# END CUSTOM CONTENT #}
+
 {{ comments.comment_link_script() }}
 {{ math.math_scripts_ifposts(posts) }}
 {% endblock %}
