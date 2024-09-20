@@ -152,7 +152,7 @@ NAVIGATION_LINKS = {
         ("https://coborski.bearblog.dev/blog/", "ʕ•ᴥ•ʔ blog"),
         ("/pages/", "Pages"),
         ("/posts/", "Posts"),
-        ("/pages/am3/", "Archive of My Own"),
+        ("/pages/AM3/", "Archive of My Own"),
         ("/pages/links/", "Links"),
         ("/pages/guestbook/", "Guestbook"),
         ("/categories", "Categories"),
