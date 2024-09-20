@@ -1,0 +1,2068 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: github.com/cOborski/neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+DocumentNamespace: https://blob.fossa.io.s3.us-east-1.amazonaws.com/blob.fossa.io/FOSSA_BOMS/git%2Bgithub.com%2FcOborski%2Fneocities%24532d2a79bdeed8794fdde5a55ec884fccd563156
+Creator: Organization: Wyoming Prairie
+Creator: Tool: FOSSA v0.12.0
+Created: 2024-09-20T02:00:23Z
+LicenseListVersion: 3.23
+DocumentDescribes: SPDXRef-pip-Jinja2-3.1.4
+DocumentDescribes: SPDXRef-pip-Nikola-8.3.1
+
+#### Packages
+
+PackageName: neocities
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+PackageVersion: 532d2a79bdeed8794fdde5a55ec884fccd563156
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: NONE
+PackageCopyrightText: 2014-2024 Daniel Aleksandersen and others.
+	2007 Free Software Foundation, Inc. <https://fsf.org/>
+	tag for inclusion in RSS feeds that works just
+PackageLicenseInfoFromFiles: MIT GPL-3.0-only CC-BY-NC-SA-4.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/cOborski/neocities@532d2a79bdeed8794fdde5a55ec884fccd563156
+PackageChecksum: MD5: 21e324c17a32f7a789d2e2aa7cbc9b4e
+PackageChecksum: SHA1: d365d5fe8939a1c8395c46819ddd35374fe85f08
+PackageChecksum: SHA256: 5a5a4384b3aebe2c95e637b27f20514e20216b38dd93effe5966f456f09fd3ff
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-conf-def.py
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-conf.py
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-nikola-conf.py.in
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-night-dragon-LICENSE
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-willy-theme-LICENSE
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-LICENSE.md
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-assets-css-theme.css
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-public-assets-css-theme.css
+HasFile: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-assets-css-LICENSE
+
+
+PackageName: Jinja2
+SPDXID: SPDXRef-pip-Jinja2-3.1.4
+PackageVersion: 3.1.4
+FilesAnalyzed: true
+PackageOriginator: Organization: Pip
+PackageLicenseDeclared: BSD-3-Clause
+PackageCopyrightText: 2007 Pallets
+PackageDownloadLocation: https://files.pythonhosted.org/packages/ed/55/39036716d19cab0747a5020fc7e907f362fbf48c984b14e62127f7e68e5d/jinja2-3.1.4.tar.gz
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jinja2@3.1.4
+PackageChecksum: MD5: f2cb5d1b13fb80617f3d44829b17b296
+PackageChecksum: SHA1: 809f9f5a0e2b30c222215470bc032c79fdbdd421
+PackageChecksum: SHA256: 91975573578ef046f6b3207ee004c355a0cadbeb8998eab5326128d8048e806f
+HasFile: SPDXRef-pip-Jinja2-3.1.4-LICENSE.txt
+
+
+PackageName: Nikola
+SPDXID: SPDXRef-pip-Nikola-8.3.1
+PackageVersion: 8.3.1
+FilesAnalyzed: true
+PackageOriginator: Organization: Pip
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 2012-2024 Roberto Alsina and others.
+	2016 -2017 Shayan Rais
+	 Federico Zivolo 2020
+	2014 Alexander Farkas (aFarkas).
+	1989, 1991 Free Software Foundation, Inc.
+	 the software, and
+	2014 Alexander Farkas (aFarkas)
+	2014-2024 Daniel Aleksandersen and others.
+	2012-2024 Roberto Alsina, Chris Warrick and others.
+	2013-2024 Michael Rabbitt, Roberto Alsina and others.
+	2014-2024 Pelle Nilsson and others.
+	2012-2024 Chris Warrick and others.
+	2012-2024 Chris Warrick, Roberto Alsina and others.
+	2013-2024 Damián Avila, Chris Warrick and others.
+	 The Wikibooks contributors (CC BY-SA/fair use citation); edited to match coding sty
+	2013 Michael Rabbitt.
+	2013-2024 Udo Spallek, Roberto Alsina and others.
+	2017-2024 Roberto Alsina and others.
+	2015-2024 Juanjo Conti and others.
+	2011-2022 Twitter, Inc.
+	2011-2022 The Bootstrap Authors
+	2010-2012 Andrey Tarantsov
+	2014 yeikos
+	2016 Federico Zivolo and contributors
+	2015-2024 Chris Warrick and others.
+	2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+	2019 JS Foundation and other contributors
+	2013-2024 Chris Warrick.
+	2017-2024 Roberto Alsina, Chris Warrick and others.
+	2018 feimosi](https://github.com/feimosi/)
+	2019 SmugMug, Inc.
+	 OpenJS Foundation and other contributors, https://openjsf.org/
+	 JS Foundation and other contributors, https://js.foundation/
+	2017 Marek Grzybek
+	 properly.
+	 self._get_rss_copyright(lang, rss_pla
+	 lang, rss_pla
+	 None):
+	2014-2024 Puneeth Chaganti and others.
+	2016-2024 Chris Warrick.
+	2006-2019 by the respective authors (see AUTHORS file).
+	2011-2022 the [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+	tag for inclusion in RSS feeds that works just
+	and
+	2014 Alexander Farkas (aFarkas).
+	2003-2008 Jorgen Thelin
+PackageLicenseInfoFromFiles: BSD-3-Clause BSD-2-Clause CC-BY-3.0 CC-BY-NC-ND-3.0 CC-BY-NC-SA-4.0 CC0-1.0 GPL-2.0-or-later GPL-2.0-only LicenseRef-public-domain-40240253 LicenseRef-gutenberg-2020 ISC MS-PL
+PackageDownloadLocation: https://files.pythonhosted.org/packages/bc/e3/39974a2b3009a1f9e7e5c9db5ba078f9f1999d714ab9c2f2c5bab9cd3ebe/Nikola-8.3.1.tar.gz
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/nikola@8.3.1
+PackageChecksum: MD5: 5093fc6847ad0a22a817698fed178d83
+PackageChecksum: SHA1: 5406c26e20cc93caf535a4fc71cabf0cca1e9742
+PackageChecksum: SHA256: 5673bdbae30e8ea32b9d9bab8514e55831cc1c651c9f356553a5a0a912897f20
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-packages-pygments-better-html-LICENSE.pygments
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-packages-datecond-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-packages-pygments-better-html-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-packages-datecond-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-packages-tzlocal-LICENSE.txt
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-README.md
+HasFile: SPDXRef-pip-Nikola-8.3.1-tests-test-command-import-wordpress.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-conf.py.in
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-html5shiv-MIT-and-GPL2-licenses.md
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-html5shiv-composer.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-scripts-capty
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-data-samplesite-pages-dr-nikolas-vendetta.rst
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-justified-layout-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-subtheme.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-php.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-youtube.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-emoji-data-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-bootstrap4-jinja-assets-js-popper.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-base-assets-css-theme.css
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-log.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-basic-import.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-default-config.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-new-page.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-serve.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-html.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-podcast.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-doc.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-thumbnail.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-taxonomies-classifier.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-image-processing.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugin-manager.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-media.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-LICENSE.txt
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-bootstrap4-assets-js-popper.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-metadata-extractors.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-deploy.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-new-post.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-status.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-ipynb.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-pandoc.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-listing.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-vimeo.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-chart.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-copy-assets.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-indexes.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-redirect.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-tags.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-post.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-tests-test-plugin-manager.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-main-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-hierarchy-utils.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugin-categories.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-check.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-import-wordpress.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-plugin.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-theme.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-gist.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-post-list.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-listing.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-authors.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-galleries.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-pages.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-sitemap.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-jinja.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-utils.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-bower.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-livereload-js-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-setup.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-console.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-init.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-rst2html-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-version.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-nikola.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-chart.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-soundcloud.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-scan-posts.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-post-list.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-bundles.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-gzip.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-posts.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-sources.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-mako.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-winutils.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-dist-js-bootstrap.bundle.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-luxon-LICENSE.md
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper-utils.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper-utils.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper-utils.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-scripts-release
+HasFile: SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-second-two-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-thumbnail.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-categories.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-listings.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-robots.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-taxonomies.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-shortcodes.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-README.md
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-justified-layout-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-bower.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper-utils.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-LICENSE.txt
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-livereload-js-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper-utils.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-external-sizzle-LICENSE.txt
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-luxon-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper-utils.min.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper.js
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-broken.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-one.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-archive.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-copy-files.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-page-index.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-scale-images.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-state.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-LICENSE
+HasFile: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-package.json
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-filters.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-nikola.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-auto-init-.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-github-deploy.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-orphans.py
+HasFile: SPDXRef-pip-Nikola-8.3.1-tests-data-rss-2-0.xsd
+
+
+
+#### License Information
+
+LicenseID: LicenseRef-gutenberg-2020
+LicenseName: gutenberg-2020
+ExtractedText: THE FULL PROJECT GUTENBERG LICENSE
+	PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+	
+	To protect the Project Gutenberg-tm mission of promoting the free
+	distribution of electronic works, by using or distributing this work
+	(or any other work associated in any way with the phrase "Project
+	Gutenberg"), you agree to comply with all the terms of the Full Project
+	Gutenberg-tm License available with this file or online at
+	www.gutenberg.org/license.
+	
+	Section 1. General Terms of Use and Redistributing Project Gutenberg-tm electronic works
+	
+	1.A. By reading or using any part of this Project Gutenberg-tm electronic work, you indicate that you have read, understand, agree to and accept all the terms of this license and intellectual property (trademark/copyright) agreement. If you do not agree to abide by all the terms of this agreement, you must cease using and return or destroy all copies of Project Gutenberg-tm electronic works in your possession. If you paid a fee for obtaining a copy of or access to a Project Gutenberg-tm electronic work and you do not agree to be bound by the terms of this agreement, you may obtain a refund from the person or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+	
+	1.B. "Project Gutenberg" is a registered trademark. It may only be used on or associated in any way with an electronic work by people who agree to be bound by the terms of this agreement. There are a few things that you can do with most Project Gutenberg-tm electronic works even without complying with the full terms of this agreement. See paragraph 1.C below. There are a lot of things you can do with Project Gutenberg-tm electronic works if you follow the terms of this agreement and help preserve free future access to Project Gutenberg-tm electronic works. See paragraph 1.E below.
+	
+	1.C. The Project Gutenberg Literary Archive Foundation ("the Foundation" or PGLAF), owns a compilation copyright in the collection of Project Gutenberg-tm electronic works. Nearly all the individual works in the collection are in the public domain in the United States. If an individual work is unprotected by copyright law in the United States and you are located in the United States, we do not claim a right to prevent you from copying, distributing, performing, displaying or creating derivative works based on the work as long as all references to Project Gutenberg are removed. Of course, we hope that you will support the Project Gutenberg-tm mission of promoting free access to electronic works by freely sharing Project Gutenberg-tm works in compliance with the terms of this agreement for keeping the Project Gutenberg-tm name associated with the work. You can easily comply with the terms of this agreement by keeping this work in the same format with its attached full Project Gutenberg-tm License when you share it without charge with others.
+	
+	[*] This particular work is one of the few individual works protected by copyright law in the United States and most of the remainder of the world, included in the Project Gutenberg collection with the permission of the copyright holder. Information on the copyright owner for this particular work and the terms of use imposed by the copyright holder on this work are set forth at the beginning of this work.
+	
+	1.D. The copyright laws of the place where you are located also govern what you can do with this work. Copyright laws in most countries are in a constant state of change. If you are outside the United States, check the laws of your country in addition to the terms of this agreement before downloading, copying, displaying, performing, distributing or creating derivative works based on this work or any other Project Gutenberg-tm work. The Foundation makes no representations concerning the copyright status of any work in any country outside the United States.
+	
+	1.E. Unless you have removed all references to Project Gutenberg:
+	
+	1.E.1. The following sentence, with active links to, or other immediate access to, the full Project Gutenberg-tm License must appear prominently whenever any copy of a Project Gutenberg-tm work (any work on which the phrase "Project Gutenberg" appears, or with which the phrase "Project Gutenberg" is associated) is accessed, displayed, performed, viewed, copied or distributed:
+	
+	This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you’ll have to check the laws of the country where you are located before using this ebook.
+	
+	1.E.2. If an individual Project Gutenberg-tm electronic work is derived from texts not protected by U.S. copyright law (does not contain a notice indicating that it is posted with permission of the copyright holder), the work can be copied and distributed to anyone in the United States without paying any fees or charges. If you are redistributing or providing access to a work with the phrase "Project Gutenberg" associated with or appearing on the work, you must comply either with the requirements of paragraphs 1.E.1 through 1.E.7 or obtain permission for the use of the work and the Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+	
+	1.E.3. If an individual Project Gutenberg-tm electronic work is posted with the permission of the copyright holder, your use and distribution must comply with both paragraphs 1.E.1 through 1.E.7 and any additional terms imposed by the copyright holder. Additional terms will be linked to the Project Gutenberg-tm License for all works posted with the permission of the copyright holder found at the beginning of this work.
+	
+	1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm License terms from this work, or any files containing a part of this work or any other work associated with Project Gutenberg-tm.
+	
+	1.E.5. Do not copy, display, perform, distribute or redistribute this electronic work, or any part of this electronic work, without prominently displaying the sentence set forth in paragraph 1.E.1 with active links or immediate access to the full terms of the Project Gutenberg-tm License.
+	
+	1.E.6. You may convert to and distribute this work in any binary, compressed, marked up, nonproprietary or proprietary form, including any word processing or hypertext form. However, if you provide access to or distribute copies of a Project Gutenberg-tm work in a format other than "Plain Vanilla ASCII" or other format used in the official version posted on the official Project Gutenberg-tm web site (www.gutenberg.org), you must, at no additional cost, fee or expense to the user, provide a copy, a means of exporting a copy, or a means of obtaining a copy upon request, of the work in its original "Plain Vanilla ASCII" or other form. Any alternate format must include the full Project Gutenberg-tm License as specified in paragraph 1.E.1.
+	
+	1.E.7. Do not charge a fee for access to, viewing, displaying, performing, copying or distributing any Project Gutenberg-tm works unless you comply with paragraph 1.E.8 or 1.E.9.
+	
+	1.E.8. You may charge a reasonable fee for copies of or providing access to or distributing Project Gutenberg-tm electronic works provided that
+	
+	    You pay a royalty fee of 20% of the gross profits you derive from the use of Project Gutenberg-tm works calculated using the method you already use to calculate your applicable taxes. The fee is owed to the owner of the Project Gutenberg-tm trademark, but he has agreed to donate royalties under this paragraph to the Project Gutenberg Literary Archive Foundation. Royalty payments must be paid within 60 days following each date on which you prepare (or are legally required to prepare) your periodic tax returns. Royalty payments should be clearly marked as such and sent to the Project Gutenberg Literary Archive Foundation at the address specified in Section 4, "Information about donations to the Project Gutenberg Literary Archive Foundation."
+	    You provide a full refund of any money paid by a user who notifies you in writing (or by e-mail) within 30 days of receipt that s/he does not agree to the terms of the full Project Gutenberg-tm License. You must require such a user to return or destroy all copies of the works possessed in a physical medium and discontinue all use of and all access to other copies of Project Gutenberg-tm works.
+	    You provide, in accordance with paragraph 1.F.3, a full refund of any money paid for a work or a replacement copy, if a defect in the electronic work is discovered and reported to you within 90 days of receipt of the work.
+	    You comply with all other terms of this agreement for free distribution of Project Gutenberg-tm works.
+	
+	1.E.9. If you wish to charge a fee or distribute a Project Gutenberg-tm electronic work or group of works on different terms than are set forth in this agreement, you must obtain permission in writing from both the Project Gutenberg Literary Archive Foundation and The Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm trademark. Contact the Foundation as set forth in Section 3 below.
+	
+	1.F.
+	
+	1.F.1. Project Gutenberg volunteers and employees expend considerable effort to identify, do copyright research on, transcribe and proofread works not protected by U.S. copyright law in creating the Project Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm electronic works, and the medium on which they may be stored, may contain "Defects," such as, but not limited to, incomplete, inaccurate or corrupt data, transcription errors, a copyright or other intellectual property infringement, a defective or damaged disk or other medium, a computer virus, or computer codes that damage or cannot be read by your equipment.
+	
+	1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right of Replacement or Refund" described in paragraph 1.F.3, the Project Gutenberg Literary Archive Foundation, the owner of the Project Gutenberg-tm trademark, and any other party distributing a Project Gutenberg-tm electronic work under this agreement, disclaim all liability to you for damages, costs and expenses, including legal fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH DAMAGE.
+	
+	1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a defect in this electronic work within 90 days of receiving it, you can receive a refund of the money (if any) you paid for it by sending a written explanation to the person you received the work from. If you received the work on a physical medium, you must return the medium with your written explanation. The person or entity that provided you with the defective work may elect to provide a replacement copy in lieu of a refund. If you received the work electronically, the person or entity providing it to you may choose to give you a second opportunity to receive the work electronically in lieu of a refund. If the second copy is also defective, you may demand a refund in writing without further opportunities to fix the problem.
+	
+	1.F.4. Except for the limited right of replacement or refund set forth in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+	
+	1.F.5. Some states do not allow disclaimers of certain implied warranties or the exclusion or limitation of certain types of damages. If any disclaimer or limitation set forth in this agreement violates the law of the state applicable to this agreement, the agreement shall be interpreted to make the maximum disclaimer or limitation permitted by the applicable state law. The invalidity or unenforceability of any provision of this agreement shall not void the remaining provisions.
+	
+	1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg-tm electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg-tm electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg-tm work, (b) alteration, modification, or additions or deletions to any Project Gutenberg-tm work, and (c) any Defect you cause.
+	Section 2. Information about the Mission of Project Gutenberg-tm
+	
+	Project Gutenberg-tm is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life.
+	
+	Volunteers and financial support to provide volunteers with the assistance they need are critical to reaching Project Gutenberg-tm’s goals and ensuring that the Project Gutenberg-tm collection will remain freely available for generations to come. In 2001, the Project Gutenberg Literary Archive Foundation was created to provide a secure and permanent future for Project Gutenberg-tm and future generations. To learn more about the Project Gutenberg Literary Archive Foundation and how your efforts and donations can help, see Sections 3 and 4 and the Foundation information page at www.gutenberg.org
+	Section 3. Information about the Project Gutenberg Literary Archive Foundation
+	
+	The Project Gutenberg Literary Archive Foundation is a non profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service. The Foundation’s EIN or federal tax identification number is 64-6221541. Contributions to the Project Gutenberg Literary Archive Foundation are tax deductible to the full extent permitted by U.S. federal laws and your state’s laws.
+	
+	The Foundation’s principal office is located at 4557 Melan Dr. S. Fairbanks, AK, 99712., but its volunteers and employees are scattered throughout numerous locations. Its business office is located at 809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up to date contact information can be found at the Foundation’s web site and official page at www.gutenberg.org/contact
+	
+	For additional contact information:
+	
+	    Dr. Gregory B. Newby
+	    Chief Executive and Director
+	    gbnewby@pglaf.org
+	
+	Section 4. Information about Donations to the Project Gutenberg Literary Archive Foundation
+	
+	Project Gutenberg-tm depends upon and cannot survive without wide spread public support and donations to carry out its mission of increasing the number of public domain and licensed works that can be freely distributed in machine readable form accessible by the widest array of equipment including outdated equipment. Many small donations ($1 to $5,000) are particularly important to maintaining tax exempt status with the IRS.
+	
+	The Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States. Compliance requirements are not uniform and it takes a considerable effort, much paperwork and many fees to meet and keep up with these requirements. We do not solicit donations in locations where we have not received written confirmation of compliance. To SEND DONATIONS or determine the status of compliance for any particular state visit www.gutenberg.org/donate
+	
+	While we cannot and do not solicit contributions from states where we have not met the solicitation requirements, we know of no prohibition against accepting unsolicited donations from donors in such states who approach us with offers to donate.
+	
+	International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States. U.S. laws alone swamp our small staff.
+	
+	Please check the Project Gutenberg Web pages for current donation methods and addresses. Donations are accepted in a number of other ways including checks, online payments and credit card donations. To donate, please visit: www.gutenberg.org/donate
+	Section 5. General Information About Project Gutenberg-tm electronic works.
+	
+	Professor Michael S. Hart was the originator of the Project Gutenberg-tm concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg-tm eBooks with only a loose network of volunteer support.
+	
+	Project Gutenberg-tm eBooks are often created from several printed editions, all of which are confirmed as not protected by copyright in the U.S. unless a copyright notice is included. Thus, we do not necessarily keep eBooks in compliance with any particular paper edition.
+	
+	Most people start at our Web site which has the main PG search facility: www.gutenberg.org
+	
+	This Web site includes information about Project Gutenberg-tm, including how to make donations to the Project Gutenberg Literary Archive Foundation, how to help produce our new eBooks, and how to subscribe to our email newsletter to hear about new eBooks.
+	
+	[*] This paragraph, after 1.C., is included only for copyrighted works. For those, you must contact the copyright holder before any non-free use or removal of the Project Gutenberg header.
+
+
+LicenseID: LicenseRef-public-domain-40240253
+LicenseName: public-domain
+ExtractedText: NONE
+
+
+
+#### Relationships
+
+SPDXRef-DOCUMENT DESCRIBES SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 DEPENDS_ON SPDXRef-pip-Jinja2-3.1.4
+SPDXRef-pip-Jinja2-3.1.4 DEPENDENCY_OF SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 DEPENDS_ON SPDXRef-pip-Nikola-8.3.1
+SPDXRef-pip-Nikola-8.3.1 DEPENDENCY_OF SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-conf-def.py
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-conf.py
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-nikola-conf.py.in
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-night-dragon-LICENSE
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-willy-theme-LICENSE
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-LICENSE.md
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-assets-css-theme.css
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-public-assets-css-theme.css
+SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156 CONTAINS SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-assets-css-LICENSE
+SPDXRef-pip-Jinja2-3.1.4 CONTAINS SPDXRef-pip-Jinja2-3.1.4-LICENSE.txt
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-packages-pygments-better-html-LICENSE.pygments
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-packages-datecond-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-packages-pygments-better-html-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-packages-datecond-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-packages-tzlocal-LICENSE.txt
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-README.md
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-tests-test-command-import-wordpress.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-conf.py.in
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-html5shiv-MIT-and-GPL2-licenses.md
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-html5shiv-composer.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-scripts-capty
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-data-samplesite-pages-dr-nikolas-vendetta.rst
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-justified-layout-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-subtheme.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-php.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-youtube.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-emoji-data-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-bootstrap4-jinja-assets-js-popper.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-base-assets-css-theme.css
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-log.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-basic-import.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-default-config.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-new-page.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-serve.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-html.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-podcast.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-doc.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-thumbnail.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-taxonomies-classifier.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-image-processing.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugin-manager.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-media.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-LICENSE.txt
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-bootstrap4-assets-js-popper.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-metadata-extractors.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-deploy.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-new-post.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-status.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-ipynb.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-pandoc.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-listing.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-vimeo.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-chart.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-copy-assets.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-indexes.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-redirect.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-tags.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-post.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-tests-test-plugin-manager.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-main-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-hierarchy-utils.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugin-categories.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-check.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-import-wordpress.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-plugin.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-theme.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-gist.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-post-list.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-listing.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-authors.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-galleries.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-pages.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-sitemap.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-jinja.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-utils.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-bower.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-livereload-js-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-setup.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-console.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-init.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-rst2html-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-version.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-nikola.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-chart.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-soundcloud.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-scan-posts.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-post-list.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-bundles.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-gzip.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-posts.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-sources.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-mako.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-winutils.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-dist-js-bootstrap.bundle.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-luxon-LICENSE.md
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper-utils.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper-utils.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper-utils.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-scripts-release
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-second-two-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-thumbnail.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-categories.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-listings.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-robots.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-taxonomies.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-shortcodes.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-README.md
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-justified-layout-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-bower.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper-utils.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-LICENSE.txt
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-livereload-js-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper-utils.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-external-sizzle-LICENSE.txt
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-luxon-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper-utils.min.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper.js
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-broken.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-one.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-archive.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-copy-files.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-page-index.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-scale-images.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-state.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-LICENSE
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-package.json
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-filters.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-nikola.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-auto-init-.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-github-deploy.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-orphans.py
+SPDXRef-pip-Nikola-8.3.1 CONTAINS SPDXRef-pip-Nikola-8.3.1-tests-data-rss-2-0.xsd
+
+
+
+#### Files
+
+FileName: conf_def.py
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-conf-def.py
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: CC-BY-NC-SA-4.0
+LicenseInfoInFile: CC-BY-NC-SA-4.0
+FileChecksum: MD5: a16bb1c3ec21d13f39f2486a50bdfd7b
+FileChecksum: SHA1: c0488f63b7a3fc47b9756fc316f4a1ef4930d098
+FileChecksum: SHA256: 05b3b86936f5e6b75f095b41de54d8136bb7573fe4358eb787c2981d13264c7f
+
+
+FileName: conf.py
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-conf.py
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: CC-BY-NC-SA-4.0
+LicenseInfoInFile: CC-BY-NC-SA-4.0
+FileChecksum: MD5: a16bb1c3ec21d13f39f2486a50bdfd7b
+FileChecksum: SHA1: c0488f63b7a3fc47b9756fc316f4a1ef4930d098
+FileChecksum: SHA256: 05b3b86936f5e6b75f095b41de54d8136bb7573fe4358eb787c2981d13264c7f
+
+
+FileName: nikola/conf.py.in
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-nikola-conf.py.in
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: CC-BY-NC-SA-4.0
+LicenseInfoInFile: CC-BY-NC-SA-4.0
+FileChecksum: MD5: a16bb1c3ec21d13f39f2486a50bdfd7b
+FileChecksum: SHA1: c0488f63b7a3fc47b9756fc316f4a1ef4930d098
+FileChecksum: SHA256: 05b3b86936f5e6b75f095b41de54d8136bb7573fe4358eb787c2981d13264c7f
+
+
+FileName: themes/night-dragon/LICENSE
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-night-dragon-LICENSE
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: GPL-3.0-only
+LicenseInfoInFile: GPL-3.0-only
+FileChecksum: MD5: fe81dfad13f2f3fa3125416b4d00e02f
+FileChecksum: SHA1: ff7b68967b82b91e067d0932216eb9eda350c6f7
+FileChecksum: SHA256: ffbc986889d4c74bc2e9762bab85e3ece0881871ed782117a2e9bff6d0a497c6
+
+
+FileName: themes/willy-theme/LICENSE
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-willy-theme-LICENSE
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: GPL-3.0-only
+LicenseInfoInFile: GPL-3.0-only
+FileChecksum: MD5: fe81dfad13f2f3fa3125416b4d00e02f
+FileChecksum: SHA1: ff7b68967b82b91e067d0932216eb9eda350c6f7
+FileChecksum: SHA256: ffbc986889d4c74bc2e9762bab85e3ece0881871ed782117a2e9bff6d0a497c6
+
+
+FileName: themes/hack/LICENSE.md
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-LICENSE.md
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 7abc1a233092fc104c7af72a89c0829c
+FileChecksum: SHA1: 89690ac571dcf4c9c40c842efed3f11171d07b29
+FileChecksum: SHA256: e5dcffe836b6ec8a58e492419b550e65fb8cbdc308503979e5dacb33ac7ea3b7
+
+
+FileName: themes/hack/assets/css/theme.css
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-assets-css-theme.css
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 7abc1a233092fc104c7af72a89c0829c
+FileChecksum: SHA1: 89690ac571dcf4c9c40c842efed3f11171d07b29
+FileChecksum: SHA256: e5dcffe836b6ec8a58e492419b550e65fb8cbdc308503979e5dacb33ac7ea3b7
+
+
+FileName: public/assets/css/theme.css
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-public-assets-css-theme.css
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 7abc1a233092fc104c7af72a89c0829c
+FileChecksum: SHA1: 89690ac571dcf4c9c40c842efed3f11171d07b29
+FileChecksum: SHA256: e5dcffe836b6ec8a58e492419b550e65fb8cbdc308503979e5dacb33ac7ea3b7
+
+
+FileName: themes/hack/assets/css/LICENSE
+SPDXID: SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156-themes-hack-assets-css-LICENSE
+Comment: extracted from SPDXRef-git-github.com-cOborski-neocities-532d2a79bdeed8794fdde5a55ec884fccd563156
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 7abc1a233092fc104c7af72a89c0829c
+FileChecksum: SHA1: 89690ac571dcf4c9c40c842efed3f11171d07b29
+FileChecksum: SHA256: e5dcffe836b6ec8a58e492419b550e65fb8cbdc308503979e5dacb33ac7ea3b7
+
+
+FileName: LICENSE.txt
+SPDXID: SPDXRef-pip-Jinja2-3.1.4-LICENSE.txt
+Comment: extracted from SPDXRef-pip-Jinja2-3.1.4
+LicenseConcluded: BSD-3-Clause
+LicenseInfoInFile: BSD-3-Clause
+FileChecksum: MD5: 5dc88300786f1c214c1e9827a5229462
+FileChecksum: SHA1: c4dbdbc12926d4d52c9156e690640f372615c234
+FileChecksum: SHA256: 3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b
+
+
+FileName: nikola/packages/pygments_better_html/LICENSE.pygments
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-packages-pygments-better-html-LICENSE.pygments
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: BSD-2-Clause
+LicenseInfoInFile: BSD-2-Clause
+FileChecksum: MD5: 38d9b3909e80221955d3e3588f30add5
+FileChecksum: SHA1: 0216db4ce6f2ea64dc7b8fe10f1a6c5c52bb7bd7
+FileChecksum: SHA256: 248dd895a2f89e28813b4c8c0a7d21806a35699102e4f6e32f47784b82730428
+
+
+FileName: nikola/packages/datecond/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-packages-datecond-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: BSD-3-Clause
+LicenseInfoInFile: BSD-3-Clause
+FileChecksum: MD5: a216c701c7e44fea8a3a541dddd94755
+FileChecksum: SHA1: d6f9c69f2854ede6f6c6c74c61a8e511654060d0
+FileChecksum: SHA256: 118dbcd2d5c9f9b296a9ede9fcc469c5840f7b98ad2c88461055bf2ceda38037
+
+
+FileName: nikola/packages/pygments_better_html/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-packages-pygments-better-html-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: BSD-3-Clause
+LicenseInfoInFile: BSD-3-Clause
+FileChecksum: MD5: a216c701c7e44fea8a3a541dddd94755
+FileChecksum: SHA1: d6f9c69f2854ede6f6c6c74c61a8e511654060d0
+FileChecksum: SHA256: 118dbcd2d5c9f9b296a9ede9fcc469c5840f7b98ad2c88461055bf2ceda38037
+
+
+FileName: nikola/packages/datecond/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-packages-datecond-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: BSD-3-Clause
+LicenseInfoInFile: BSD-3-Clause
+FileChecksum: MD5: a216c701c7e44fea8a3a541dddd94755
+FileChecksum: SHA1: d6f9c69f2854ede6f6c6c74c61a8e511654060d0
+FileChecksum: SHA256: 118dbcd2d5c9f9b296a9ede9fcc469c5840f7b98ad2c88461055bf2ceda38037
+
+
+FileName: nikola/packages/tzlocal/LICENSE.txt
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-packages-tzlocal-LICENSE.txt
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: CC0-1.0
+LicenseInfoInFile: CC0-1.0
+FileChecksum: MD5: b75dab4046fd78997716f7a0966fa5e8
+FileChecksum: SHA1: bd3d6a2d437e7bd96c21f6155cdcda281555f5eb
+FileChecksum: SHA256: 6e237c55b0583cb7bba05562316c54b0a105aba04775017e2253237b9a64613c
+
+
+FileName: npm_assets/node_modules/bootstrap/README.md
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-README.md
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: CC-BY-3.0
+LicenseInfoInFile: CC-BY-3.0
+FileChecksum: MD5: 4caf96e4dd64d00072d899c676bc1a6b
+FileChecksum: SHA1: f6e4297e157e3f7becf4eb94890174c55271f521
+FileChecksum: SHA256: 27293248d83a15480ea2e6c13a7b8f873146b1f93dae125e39abbe609bcc3bea
+
+
+FileName: tests/test_command_import_wordpress.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-tests-test-command-import-wordpress.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: CC-BY-NC-ND-3.0
+LicenseInfoInFile: CC-BY-NC-ND-3.0
+FileChecksum: MD5: 65bec3b1de46515b20fe6ba5685ccde2
+FileChecksum: SHA1: 37bb3da161223b21ce7c6a8ee843d5aee45dd95b
+FileChecksum: SHA256: 5bc9d234484018235e6a9ba107003d51cd9c40165a241737f2ca6cb8e42e3cf5
+
+
+FileName: nikola/conf.py.in
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-conf.py.in
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: CC-BY-NC-SA-4.0
+LicenseInfoInFile: CC-BY-NC-SA-4.0
+FileChecksum: MD5: a16bb1c3ec21d13f39f2486a50bdfd7b
+FileChecksum: SHA1: c0488f63b7a3fc47b9756fc316f4a1ef4930d098
+FileChecksum: SHA256: 05b3b86936f5e6b75f095b41de54d8136bb7573fe4358eb787c2981d13264c7f
+
+
+FileName: npm_assets/node_modules/html5shiv/MIT and GPL2 licenses.md
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-html5shiv-MIT-and-GPL2-licenses.md
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: (GPL-2.0-only OR GPL-2.0-or-later OR MIT)
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 3cfb2938e208ca3180bfb63e2fee2f41
+FileChecksum: SHA1: 0e7f9a580708fad83b57777a49177ddad473d735
+FileChecksum: SHA256: 7fac791a6abafc8b943d04f4613bcf796582c72e74f731fa44f605dfb42cd71e
+
+
+FileName: npm_assets/node_modules/html5shiv/composer.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-html5shiv-composer.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: (GPL-2.0-only OR MIT)
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5f9f56136f0a0ea3e766624e0bf414ee
+FileChecksum: SHA1: 4d1315f42183cc076fab28943b31d5e637714615
+FileChecksum: SHA256: 2a03c13bc15c7c46222fde301dcc0a3d325782a4d35aa1831ac7b930243ed4db
+
+
+FileName: scripts/capty
+SPDXID: SPDXRef-pip-Nikola-8.3.1-scripts-capty
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileChecksum: MD5: e6763ef46d23e016d56f444597ff0002
+FileChecksum: SHA1: dde872ef3cd570a3227389922d029a14c67b73fc
+FileChecksum: SHA256: 9dc7dd9c991f0419975ef6eda8f80d987e01fa18a756a10338dce24943b6602a
+
+
+FileName: nikola/data/samplesite/pages/dr-nikolas-vendetta.rst
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-data-samplesite-pages-dr-nikolas-vendetta.rst
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: (LicenseRef-gutenberg-2020 OR LicenseRef-public-domain-40240253)
+LicenseInfoInFile: LicenseRef-gutenberg-2020
+LicenseInfoInFile: LicenseRef-public-domain-40240253
+FileChecksum: MD5: 43db6f65a284428a0284c49f4ecea4ad
+FileChecksum: SHA1: 39c4fedc8cc28cac0b801c17d5145981e9e82628
+FileChecksum: SHA256: 6836348d776a18a288861bf588c83c140278ce5718abfa8f95da679efbb5c5b6
+
+
+FileName: npm_assets/node_modules/justified-layout/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-justified-layout-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: ISC
+LicenseInfoInFile: ISC
+FileChecksum: MD5: f48c9a83ad99c476b37967e89aa9d4f2
+FileChecksum: SHA1: 1f45d5abff7b829ab480ecbacc5f786b19670685
+FileChecksum: SHA256: d8d62d58d661d5ddeff06fdf1ebc08968da4743e369c74cef96eff0241eaea05
+
+
+FileName: nikola/plugins/command/subtheme.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-subtheme.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/markdown/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/php.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-php.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/youtube.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-youtube.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/shortcode/emoji/data/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-emoji-data-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/data/themes/bootstrap4-jinja/assets/js/popper.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-bootstrap4-jinja-assets-js-popper.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/data/themes/base/assets/css/theme.css
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-base-assets-css-theme.css
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/log.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-log.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/basic_import.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-basic-import.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/default_config.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-default-config.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/new_page.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-new-page.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/serve.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-serve.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/html.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-html.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/markdown/mdx_podcast.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-podcast.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/doc.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-doc.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/thumbnail.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-thumbnail.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/misc/taxonomies_classifier.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-taxonomies-classifier.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/image_processing.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-image-processing.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugin_manager.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugin-manager.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/media.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-media.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: LICENSE.txt
+SPDXID: SPDXRef-pip-Nikola-8.3.1-LICENSE.txt
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/data/themes/bootstrap4/assets/js/popper.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-data-themes-bootstrap4-assets-js-popper.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/metadata_extractors.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-metadata-extractors.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/deploy.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-deploy.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/new_post.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-new-post.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/status.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-status.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/ipynb.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-ipynb.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/pandoc.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-pandoc.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/listing.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-listing.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/vimeo.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-vimeo.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/shortcode/chart.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-chart.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/copy_assets.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-copy-assets.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/indexes.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-indexes.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/redirect.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-redirect.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/tags.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-tags.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/post.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-post.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: tests/test_plugin_manager.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-tests-test-plugin-manager.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/__main__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-main-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/hierarchy_utils.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-hierarchy-utils.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugin_categories.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugin-categories.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/check.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-check.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/import_wordpress.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-import-wordpress.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/plugin.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-plugin.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/theme.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-theme.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/markdown/mdx_gist.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-gist.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/post_list.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-post-list.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/misc/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/shortcode/listing.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-listing.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/authors.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-authors.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/galleries.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-galleries.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/pages.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-pages.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/sitemap.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-sitemap.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/template/jinja.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-jinja.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/utils.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-utils.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/bootstrap/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/jquery/bower.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-bower.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/livereload-js/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-livereload-js-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/merge/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/esm/popper.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/popper.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/umd/popper.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: setup.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-setup.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/console.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-console.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/init.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-init.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/rst2html/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-rst2html-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/version.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-version.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/markdown/mdx_nikola.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-markdown-mdx-nikola.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/chart.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-chart.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/compile/rest/soundcloud.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-compile-rest-soundcloud.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/misc/scan_posts.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-misc-scan-posts.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/shortcode/post_list.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-post-list.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/bundles.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-bundles.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/gzip.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-gzip.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/posts.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-posts.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/sources.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-sources.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/template/mako.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-mako.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/winutils.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-winutils.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/bootstrap/dist/js/bootstrap.bundle.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-dist-js-bootstrap.bundle.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/jquery/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/luxon/LICENSE.md
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-luxon-LICENSE.md
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/esm/popper-utils.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper-utils.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/popper-utils.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper-utils.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/umd/popper-utils.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper-utils.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: scripts/release
+SPDXID: SPDXRef-pip-Nikola-8.3.1-scripts-release
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: tests/data/plugin_manager/second/two/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-second-two-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/shortcode/thumbnail.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-shortcode-thumbnail.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/categories.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-categories.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/listings.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-listings.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/robots.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-robots.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/taxonomies.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-taxonomies.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/shortcodes.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-shortcodes.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/baguettebox.js/README.md
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-README.md
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/bootstrap/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-bootstrap-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/justified-layout/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-justified-layout-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/merge/bower.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-bower.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/esm/popper.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/umd/popper-utils.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper-utils.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/jquery/LICENSE.txt
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-LICENSE.txt
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/livereload-js/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-livereload-js-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/merge/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-merge-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/popper-utils.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper-utils.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/umd/popper.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-umd-popper.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/jquery/external/sizzle/LICENSE.txt
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-jquery-external-sizzle-LICENSE.txt
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/luxon/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-luxon-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/esm/popper-utils.min.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-esm-popper-utils.min.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/dist/popper.js
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-dist-popper.js
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/popper.js/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-popper.js-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: tests/data/plugin_manager/broken.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-broken.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: tests/data/plugin_manager/one.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-tests-data-plugin-manager-one.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/archive.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-archive.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/copy_files.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-copy-files.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/page_index.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-page-index.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/task/scale_images.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-task-scale-images.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/template/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-template-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/state.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-state.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/baguettebox.js/LICENSE
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-LICENSE
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: npm_assets/node_modules/baguettebox.js/package.json
+SPDXID: SPDXRef-pip-Nikola-8.3.1-npm-assets-node-modules-baguettebox.js-package.json
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/filters.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-filters.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/nikola.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-nikola.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/auto/__init__.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-auto-init-.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/github_deploy.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-github-deploy.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: nikola/plugins/command/orphans.py
+SPDXID: SPDXRef-pip-Nikola-8.3.1-nikola-plugins-command-orphans.py
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileChecksum: MD5: 5c0180d3c84dfe712c7b75a1f5c3d47c
+FileChecksum: SHA1: a01ac63a90730141afa1a763b3629943550ffdf8
+FileChecksum: SHA256: 229e8fe56dcc66bc1476a7668f507835894285ec9b784bbe0771259af352fb5c
+
+
+FileName: tests/data/rss-2_0.xsd
+SPDXID: SPDXRef-pip-Nikola-8.3.1-tests-data-rss-2-0.xsd
+Comment: extracted from SPDXRef-pip-Nikola-8.3.1
+LicenseConcluded: MS-PL
+LicenseInfoInFile: MS-PL
+FileChecksum: MD5: 8e2e9abe154069a8a3d4b5827a519334
+FileChecksum: SHA1: e51134caf4f347b9a694ef57001e1f4d341ad577
+FileChecksum: SHA256: 0f3c75e34a7f2450e5914a9edd6b9f47314417be387397aa43ffcbf0e66c40c1
+
+
+
+<!--FOSSA: Do not touch content below. -->
+
+<!--FOSSA: ==depsig=12267ec5d6aa95f3dd70e53bb52e436c606ee3f8a4896a2b35851af1f76530ff== -->
+
+
