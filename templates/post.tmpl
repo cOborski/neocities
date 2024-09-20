@@ -40,6 +40,10 @@
     {{ helper.html_pager(post) }}
     </nav>
     </aside>
+    {# KUDOS #}
+    <button class="tinylytics_kudos" data-path="{{ post._base_path }}" ></button>
+    {# END KUDOS #}
+
     {% if not post.meta('nocomments') and site_has_comments %}
         <section class="comments hidden-print">
         <h2>{{ messages("Comments") }}</h2>
