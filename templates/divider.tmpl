@@ -1,9 +1,7 @@
 {#  -*- coding: utf-8 -*- #}
 
-{% macro divider() %}
-    {% if divider %}
-        <div class=divider>
-            <img src="/images/dragondivider.gif" alt="Dragon Divider" title="Dragon Divider" style="width: 30%; height: auto;">
-        </div>
-    {% endif %}
-{% endmacro %}
+{% block dragon_divider %}
+    <div class=divider>
+        <img src="https://coborski.neocities.org/images/dragondivider.gif" alt="Dragon Divider" title="Dragon Divider" style="width: 30%; height: auto;">
+    </div>
+{% endblock %}
