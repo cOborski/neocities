@@ -17,6 +17,12 @@ type: text
 
 Programmer. Writer. Wyomingite who’s left home. When I’m not writing code or getting myself into trouble, I’m drinking tea and watching Deep Space Nine.
 
+## Status
+
+<a href="https://status.cafe"><img src="https://status.cafe/assets/button.png" alt="Status Cafe"/></a>
+<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=coborski" defer></script>
+<a href="https://status.cafe/users/coborski"><img src="https://status.cafe/users/coborski/badge.png" alt="Status Cafe Profile"/></a>
+
 ## Github
 [![Github Profile Trophies](https://github-profile-trophy.vercel.app/?username=coborski&theme=tokyonight)](https://github.com/cOborski)
 
@@ -31,3 +37,11 @@ A paragraph (from the Greek paragraphos, “to write beside” or “written bes
 
 ## Repo
 [![Github Repo](https://github-readme-stats.vercel.app/api/pin/?username=coborski&repo=neocities&theme=tokyonight)](https://github.com/cOborski/neocities)
+
+# Notes
+
+Hi!
+
+Thank you for visiting my about page! This page is a work in progress. I'm currently throwing things on here with hopes of organizing later. I'm hoping to use it as a reference for myself as well as everyone else (I might spend to much time on the internet...)
+
+Enjoy!

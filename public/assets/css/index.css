@@ -32,6 +32,23 @@
   --inverse-color: var(--oxford-blue);
 }
 
+/**
+ * CSS for the Status Caffe Widget
+ * https://status.cafe/
+ */
+
+ #statuscafe {
+    padding: .5em;
+    background-color: azure;
+    border: 1px solid midnightblue;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
 .dragon {
 	float: left;
 		width: 50%;
