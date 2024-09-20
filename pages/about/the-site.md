@@ -9,7 +9,7 @@ tags: 'page, howdy, about, site-meta'
 title: About the Site
 type: text
 ---
-## Work in Progress
+# A Work in Progress
 
 This website is (and probably always will be) a work in progress. I opened my neocities account years ago and uploaded some pages outlining a personal project I was working on at the time but it wasn't untill earliyer this year that I decided to create a personal site. I started out with a few pages written in html and some CSS I cobbled together but I quickly realized that managing even something simple like a navigation bar in html was [too tidious and error prone to contine](https://coborski.bearblog.dev/ok-so-on-a-slightly-more-technical-note/).
 
@@ -45,3 +45,13 @@ This is a personal web archive. I've created it to store copies of webpages I fi
 <br>
 
 See [*Issues*](https://github.com/cOborski/neocities/issues) for more...
+
+# Notes on Browser Compatability
+
+I've always been a firefox devote but it seems its user share is declining. Unfortunatly, this means that many websites and webdevelopment tools are not properly tested in or compatable with firefox. Currently, the kudos buttons on this site and the bravenet embedded guestbook both fail in firefox.
+
+I'm going to see what I can do about this. My goal is for this site to be 100% compatable with firefox based browsers. If you find anything that doesn't seem to be working, please post an [issue on github](https://github.com/cOborski/neocities/issues) or comment below.
+
+# Commenting!
+
+Commenting on this site is currently powered by [Utterances](https://utteranc.es/) which requiers a github account. I'm sorry for this. I would like to use a comments system that is free, allows, anonymous comments, and respects privacy but this is a pick two situation. (I know I picked *one*, don't @ me.)
