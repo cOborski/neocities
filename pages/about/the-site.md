@@ -9,6 +9,15 @@ tags: 'page, howdy, about, site-meta'
 title: About the Site
 type: text
 ---
+## Work in Progress
+
+This website is (and probably always will be) a work in progress. I opened my neocities account years ago and uploaded some pages outlining a personal project I was working on at the time but it wasn't untill earliyer this year that I decided to create a personal site. I started out with a few pages written in html and some CSS I cobbled together but I quickly realized that managing even something simple like a navigation bar in html was [too tidious and error prone to contine](https://coborski.bearblog.dev/ok-so-on-a-slightly-more-technical-note/).
+
+Since then I have swiched to the [Nikola](https://github.com/getnikola/nikola) static site generator. I am still using the sites original CSS. I'v created a Nikloa theme that looks almost the same as the site did before I started using Nikola. Once I polish things up and do some testing I'd like to submit my theme to the [Nikola Themes](https://github.com/getnikola/nikola-themes) repository.
+
+In the mean time, please enjoy my work in progress!
+
+
 ## The [Archive of My Own](https://coborski.neocities.org/pages/AM3/) Section
 
 This is a personal web archive. I've created it to store copies of webpages I find useful, interesting, or worth preserving for some other reason.
@@ -16,3 +25,23 @@ This is a personal web archive. I've created it to store copies of webpages I fi
 
 ## Repo
 [![Github Repo](https://github-readme-stats.vercel.app/api/pin/?username=coborski&repo=neocities&theme=tokyonight)](https://github.com/cOborski/neocities)
+
+## **
+## * TODO
+## * An Incompleate list.
+## */
+
+🟪 Improve accsesability
+<br>
+🟪 Make the site more readable
+<br>
+🟪 Make the theme changable
+<br>
+🟪 Make the reading experiance customizable
+<br>
+🟪 Add more dragons
+<br>
+🟪 Add Web-mentions
+<br>
+
+See [*Issues*](https://github.com/cOborski/neocities/issues) for more...
