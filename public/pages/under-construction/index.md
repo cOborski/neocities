@@ -1,5 +1,5 @@
 ---
-category: 'site-meta'
+category: 'Site Meta'
 date: 2024-09-18 18:42:13 UTC-05:00
 description: ''
 link: 'https://coborski.neocities.org/pages/under-construction'
