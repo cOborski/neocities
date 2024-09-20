@@ -54,4 +54,4 @@ I'm going to see what I can do about this. My goal is for this site to be 100% c
 
 # Commenting!
 
-Commenting on this site is currently powered by [Utterances](https://utteranc.es/) which requiers a github account. I'm sorry for this. I would like to use a comments system that is free, allows, anonymous comments, and respects privacy but this is a pick two situation. (I know I picked *one*, don't @ me.)
+Commenting on this site is currently powered by [Utterances](https://utteranc.es/) which requiers a github account. I'm sorry for this. I would like to use a comments system that is free, allows anonymous comments, and respects privacy, but this is a pick two situation. (I know I picked *one*, don't @ me.)
