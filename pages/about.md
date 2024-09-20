@@ -25,6 +25,10 @@ Programmer. Writer. Wyomingite who’s left home. When I’m not writing code or
 * LinkedIn: [cOborski](https://linkedin.com/in/cOborski)
 * Discord: [eichho.rnchen](https://discord.com/users/392539799074111488)
 
+<br>
+
+<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/6zzkk5r5hx/00-howdy-y-all-45512775/embed"></iframe>
+
 ## Status
 
 <a href="https://status.cafe"><img src="https://status.cafe/assets/button.png" alt="Status Cafe"/></a>
