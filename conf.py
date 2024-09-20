@@ -1292,7 +1292,7 @@ USE_CDN = False
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-# BODY_END = ""
+BODY_END = ' <script src="https://tinylytics.app/embed/ZQjnVaa2YYPCDkdHDEJd.js" defer></script> '
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
