@@ -17,6 +17,14 @@ type: text
 
 Programmer. Writer. Wyomingite who’s left home. When I’m not writing code or getting myself into trouble, I’m drinking tea and watching Deep Space Nine.
 
+## Elseware on the web...
+
+* itch.io: [cOborski](https://coborski.itch.io/)
+* Mastodon: [@cOborski@mas.to](https://mas.to/@cOborski)
+* Github: [@cOborski](https://github.com/cOborski)
+* LinkedIn: [cOborski](https://linkedin.com/in/cOborski)
+* Discord: [eichho.rnchen](https://discord.com/users/392539799074111488)
+
 ## Status
 
 <a href="https://status.cafe"><img src="https://status.cafe/assets/button.png" alt="Status Cafe"/></a>
